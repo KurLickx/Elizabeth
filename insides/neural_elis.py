@@ -4,7 +4,6 @@ import torch.optim as optim
 import string
 import os
 
-# Расширенный алфавит с цифрами и арифметикой
 ALL_LETTERS = (
     string.ascii_lowercase +
     "0123456789+-*/= .,;!?абвгдеёжзийклмнопрстуфхцчшщьыъэюя"
@@ -57,7 +56,7 @@ def load_partial_weights(old_model_path, new_model):
     new_model.load_state_dict(new_state)
     print(f"Загружено {loaded} совместимых параметров из старой модели.")
     
-rnn = ElisLSTM(N_LETTERS, 256, N_LETTERS).to(device)
+rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(rnn.parameters(), lr=0.001)
 
