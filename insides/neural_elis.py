@@ -6,7 +6,8 @@ import os
 
 ALL_LETTERS = (
     string.ascii_lowercase +
-    "0123456789+-*/= .,;!?абвгдеёжзийклмнопрстуфхцчшщьыъэюя"
+    "0123456789+-*/= .,;!?абвгдеёжзийклмнопрстуфхцчшщьыъэюя" +
+    "_\\/№#@[]{}()<>^$&%~`|\"'"
 )
 N_LETTERS = len(ALL_LETTERS)
 
@@ -41,21 +42,30 @@ class ElisLSTM(nn.Module):
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def load_partial_weights(old_model_path, new_model):
+def load_partial_weights_extend(old_model_path, new_model):
     old_state = torch.load(old_model_path, map_location=device)
     new_state = new_model.state_dict()
 
-    loaded = 0
-    for name, param in old_state.items():
-        if name in new_state and param.shape == new_state[name].shape:
-            new_state[name] = param
-            loaded += 1
-        else:
-            print(f"Пропущено: {name} (размер {param.shape} → {new_state.get(name, 'не найден')})")
+    for name in new_state:
+        if name in old_state:
+            old_param = old_state[name]
+            new_param = new_state[name]
+
+            if old_param.shape == new_param.shape:
+                new_state[name] = old_param
+            elif name.startswith("decoder.weight") or name.startswith("decoder.bias"):
+                min_shape = min(old_param.shape[0], new_param.shape[0])
+                if "weight" in name:
+                    new_state[name][:min_shape, :] = old_param[:min_shape, :]
+                else:  # ура bias робит
+                    new_state[name][:min_shape] = old_param[:min_shape]
+                print(f"[Elis] Расширен слой {name} ({old_param.shape} → {new_param.shape})")
+            else:
+                print(f"[Elis] Пропущен параметр: {name} ({old_param.shape} → {new_param.shape})")
 
     new_model.load_state_dict(new_state)
-    print(f"Загружено {loaded} совместимых параметров из старой модели.")
-    
+    print("[Elis] Частично загружены совместимые веса модели.")
+
 rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(rnn.parameters(), lr=0.001)
@@ -63,7 +73,6 @@ optimizer = optim.Adam(rnn.parameters(), lr=0.001)
 MODEL_PATH = "models/elis_best.pt"
 if os.path.exists(MODEL_PATH):
     try:
-        load_partial_weights(MODEL_PATH, rnn)
-        print(f"[Elis] Частично загружена модель из {MODEL_PATH}")
+        load_partial_weights_extend(MODEL_PATH, rnn)
     except Exception as e:
         print(f"[Elis] Ошибка загрузки модели: {e}")

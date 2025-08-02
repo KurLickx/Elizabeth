@@ -71,7 +71,7 @@ def train(line):
     optimizer.step()
     return loss.item() / line_tensor.size(0)
 
-def generate(start_char='', max_len=100):
+def generate(start_char='', max_len=10000):
     if not start_char or start_char not in ALL_LETTERS:
         start_char = random.choice(ALL_LETTERS)
 
@@ -123,7 +123,7 @@ def main():
             torch.save(rnn.state_dict(), best_model_path)
             speak(f"Сохранила лучшую модель с потерей {best_loss:.4f}")
         if (epoch + 1) % 5 == 0:
-            reply = generate(start_char=random.choice("1234567890+="))
+            reply = generate(start_char=random.choice("0123456789+-*/= .,;!?абвгдеёжзийклмнопрстуфхцчшщьыъэюя"))
             speak(f"Промежуточная генерация после эпохи {epoch+1}: {reply}")
             with open("generations_log.txt", "a", encoding="utf-8") as f:
                 f.write(f"Epoch {epoch+1:03d}: {reply}\n")
