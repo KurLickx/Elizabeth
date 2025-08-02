@@ -71,7 +71,7 @@ def train(line):
     optimizer.step()
     return loss.item() / line_tensor.size(0)
 
-def generate(start_char='', max_len=1000):
+def generate(start_char='', max_len=10000):
     if not start_char or start_char not in ALL_LETTERS:
         start_char = random.choice(ALL_LETTERS)
 
