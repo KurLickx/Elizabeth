@@ -4,21 +4,17 @@ import torch.optim as optim
 import string
 import os
 
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import string
-import os
-
-
 ALL_LETTERS = (
     string.ascii_letters +
     "0123456789" +
-    "+-*/= .,;!?_\\/№#@&()[]{}<>\"\'^$%~|`" +
+    "+-*/= .,;!?_\\/№#@&()[]<>\"\'^$%~|`" +
     "абвгдеёжзийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ"
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 )
+
 N_LETTERS = len(ALL_LETTERS)
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def letter_to_tensor(letter):
     tensor = torch.zeros(1, N_LETTERS)
@@ -34,7 +30,7 @@ def line_to_tensor(line):
     return tensor
 
 class ElisLSTM(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, num_layers=8):
+    def __init__(self, input_size, hidden_size, output_size, num_layers=3):
         super(ElisLSTM, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
@@ -51,8 +47,6 @@ class ElisLSTM(nn.Module):
             torch.zeros(self.num_layers, 1, self.hidden_size, device=device),
             torch.zeros(self.num_layers, 1, self.hidden_size, device=device),
         )
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def load_partial_weights(old_model_path, new_model):
     old_state = torch.load(old_model_path, map_location=device)
@@ -72,9 +66,9 @@ def load_partial_weights(old_model_path, new_model):
     new_model.load_state_dict(new_state, strict=False)
     print(f"[Elis] Загружено {loaded} совместимых параметров из старой модели.")
 
-rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=8).to(device)
+rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(rnn.parameters(), lr=0.001)
+optimizer = optim.Adam(rnn.parameters(), lr=0.0001)
 
 MODEL_PATH = "models/elis_best.pt"
 if os.path.exists(MODEL_PATH):
