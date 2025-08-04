@@ -122,7 +122,7 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 100
+    epochs = 50
     batch_size = 16
     val_ratio = 0.1
 
@@ -142,7 +142,6 @@ def main():
         val_lines = lines[:int(len(lines)*val_ratio)]
 
         total_loss = 0
-        # Батч обучение
         for i in range(0, len(train_lines), batch_size):
             batch = train_lines[i:i+batch_size]
             loss = train_batch(batch)
