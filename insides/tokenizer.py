@@ -4,7 +4,7 @@ import string
 ALL_LETTERS = (
     string.ascii_letters +
     "0123456789" +
-    "+-*/= .,;!?_\\/№#@&()[]<>\"\'^$%~|`" +
+    "+-*/= .,;!?_\\/№#@&()[]<>\"\'^$%~`|" +
     "абвгдеёжзийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ"
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 )
