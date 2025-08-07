@@ -68,7 +68,7 @@ def load_partial_weights(old_model_path, new_model):
 
 rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(rnn.parameters(), lr=0.001)
+optimizer = optim.Adam(rnn.parameters(), lr=0.01)
 
 MODEL_PATH = "models/elis_best.pt"
 if os.path.exists(MODEL_PATH):

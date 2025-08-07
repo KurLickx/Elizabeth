@@ -47,13 +47,11 @@ def train_batch(batch_lines):
     for line in lines:
         if len(line) < 2:
             continue
-        # Input: all but last char, Target: all but first char
         input_seq = line[:-1]
         target_seq = line[1:]
         input_tensor = line_to_tensor(input_seq).to(device)
         target_indices = [ALL_LETTERS.index(c) for c in target_seq if c in ALL_LETTERS]
         if len(target_indices) != len(input_seq):
-            # skip if input and target would be misaligned
             continue
         input_tensors.append(input_tensor)
         target_tensors.append(torch.tensor(target_indices, dtype=torch.long, device=device))
@@ -62,8 +60,8 @@ def train_batch(batch_lines):
     if not input_tensors:
         return 0
 
-    input_padded = pad_sequence(input_tensors)  # (max_seq, batch, feat)
-    target_padded = pad_sequence(target_tensors, padding_value=-100)  # (max_seq, batch)
+    input_padded = pad_sequence(input_tensors)
+    target_padded = pad_sequence(target_tensors, padding_value=-100)
     lengths = torch.tensor(lengths, dtype=torch.long, device=device)
     batch_size = input_padded.shape[1]
     if batch_size == 0:
@@ -93,16 +91,19 @@ def validate(lines, val_ratio=0.1):
             if len(line) < 2:
                 continue
             try:
-                line_tensor = line_to_tensor(line).to(device) 
-                target_indices = [ALL_LETTERS.index(c) for c in line[1:] if c in ALL_LETTERS]
-                target_indices.append(ALL_LETTERS.index(" "))
+                input_seq = line[:-1]
+                target_seq = line[1:]
+                input_tensor = line_to_tensor(input_seq).to(device)
+                target_indices = [ALL_LETTERS.index(c) for c in target_seq if c in ALL_LETTERS]
+                if len(target_indices) != len(input_seq):
+                    continue  
                 target_tensor = torch.tensor(target_indices, dtype=torch.long).to(device)
-                line_tensor = line_tensor.unsqueeze(1)
+                input_tensor = input_tensor.unsqueeze(1)
                 hidden = (torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device),
                           torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device))
-                output, _ = rnn.lstm(line_tensor, hidden)
+                output, _ = rnn.lstm(input_tensor, hidden)
                 output = rnn.decoder(output)
-                output = output.squeeze(1)  
+                output = output.squeeze(1)
                 loss = criterion(output, target_tensor)
                 total_loss += loss.item()
             except Exception as e:
@@ -144,7 +145,7 @@ def main():
         lines = [line.strip() for line in f if line.strip()]
 
     epochs = 150
-    batch_size = 16
+    batch_size = 64
     val_ratio = 0.1
 
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)
