@@ -2,6 +2,7 @@ import os
 import datetime
 import torch
 import random
+from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
 from neural_elis import letter_to_tensor, line_to_tensor, ALL_LETTERS, device, rnn, criterion, optimizer
 
 IDENTITY_FILE = "identity.txt"
@@ -36,32 +37,51 @@ def speak(text):
 
 def train_batch(batch_lines):
     optimizer.zero_grad()
-    total_loss = 0
-    batch_size = len(batch_lines)
+    lines = [line.strip() for line in batch_lines if len(line.strip()) > 1]
+    if not lines:
+        return 0
 
-    for line in batch_lines:
-        line = line.strip()
+    input_tensors = []
+    target_tensors = []
+    lengths = []
+    for line in lines:
         if len(line) < 2:
             continue
-        try:
-            line_tensor = line_to_tensor(line).to(device)
-            target_indices = [ALL_LETTERS.index(c) for c in line[1:] if c in ALL_LETTERS]
-            target_indices.append(ALL_LETTERS.index(" "))
-            target_tensor = torch.tensor(target_indices, dtype=torch.long).to(device)
+        # Input: all but last char, Target: all but first char
+        input_seq = line[:-1]
+        target_seq = line[1:]
+        input_tensor = line_to_tensor(input_seq).to(device)
+        target_indices = [ALL_LETTERS.index(c) for c in target_seq if c in ALL_LETTERS]
+        if len(target_indices) != len(input_seq):
+            # skip if input and target would be misaligned
+            continue
+        input_tensors.append(input_tensor)
+        target_tensors.append(torch.tensor(target_indices, dtype=torch.long, device=device))
+        lengths.append(len(input_seq))
 
-            hidden = rnn.init_hidden()
-            loss = 0
-            for i in range(target_tensor.size(0)):
-                output, hidden = rnn(line_tensor[i].unsqueeze(0), hidden)
-                loss += criterion(output.squeeze(0), target_tensor[i].unsqueeze(0))
-            loss.backward()
-            total_loss += loss.item() / target_tensor.size(0)
+    if not input_tensors:
+        return 0
 
-        except Exception as e:
-            speak(f"Ошибка при обучении строки: {line[:30]}... Ошибка: {e}")
+    input_padded = pad_sequence(input_tensors)  # (max_seq, batch, feat)
+    target_padded = pad_sequence(target_tensors, padding_value=-100)  # (max_seq, batch)
+    lengths = torch.tensor(lengths, dtype=torch.long, device=device)
+    batch_size = input_padded.shape[1]
+    if batch_size == 0:
+        print("[DEBUG] Batch size is 0 after padding. Skipping batch.")
+        return 0
 
+    packed_input = pack_padded_sequence(input_padded, lengths.cpu(), enforce_sorted=False)
+    hidden = (torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
+              torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device))
+    packed_output, _ = rnn.lstm(packed_input, hidden)
+    output, _ = pad_packed_sequence(packed_output)  
+    output = rnn.decoder(output) 
+    output_flat = output.reshape(-1, output.size(-1))
+    target_flat = target_padded.reshape(-1)
+    loss = criterion(output_flat, target_flat)
+    loss.backward()
     optimizer.step()
-    return total_loss / batch_size if batch_size > 0 else 0
+    return loss.item()
 
 def validate(lines, val_ratio=0.1):
     val_size = max(1, int(len(lines)*val_ratio))
@@ -73,17 +93,18 @@ def validate(lines, val_ratio=0.1):
             if len(line) < 2:
                 continue
             try:
-                line_tensor = line_to_tensor(line).to(device)
+                line_tensor = line_to_tensor(line).to(device) 
                 target_indices = [ALL_LETTERS.index(c) for c in line[1:] if c in ALL_LETTERS]
                 target_indices.append(ALL_LETTERS.index(" "))
                 target_tensor = torch.tensor(target_indices, dtype=torch.long).to(device)
-
-                hidden = rnn.init_hidden()
-                loss = 0
-                for i in range(target_tensor.size(0)):
-                    output, hidden = rnn(line_tensor[i].unsqueeze(0), hidden)
-                    loss += criterion(output.squeeze(0), target_tensor[i].unsqueeze(0))
-                total_loss += loss.item() / target_tensor.size(0)
+                line_tensor = line_tensor.unsqueeze(1)
+                hidden = (torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device),
+                          torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device))
+                output, _ = rnn.lstm(line_tensor, hidden)
+                output = rnn.decoder(output)
+                output = output.squeeze(1)  
+                loss = criterion(output, target_tensor)
+                total_loss += loss.item()
             except Exception as e:
                 speak(f"Ошибка в валидации строки: {line[:30]}... Ошибка: {e}")
     return total_loss / val_size if val_size > 0 else 0
@@ -122,7 +143,7 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 50
+    epochs = 150
     batch_size = 16
     val_ratio = 0.1
 
@@ -157,7 +178,7 @@ def main():
             torch.save(rnn.state_dict(), best_model_path)
             speak(f"Сохранила лучшую модель с потерей {best_loss:.6f}")
 
-        if (epoch + 1) % 5 == 0:
+        if (epoch + 1) % 25 == 0:
             reply = generate(start_char=random.choice(ALL_LETTERS))
             speak(f"Промежуточная генерация после эпохи {epoch+1}: {reply}")
             with open(os.path.join(GENERATIONS_DIR, "generations_log.txt"), "a", encoding="utf-8") as f:

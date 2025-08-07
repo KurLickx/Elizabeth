@@ -1,0 +1,72 @@
+[22:17:44] Elis: Утро
+[22:17:44] Elis: Читаю свою личность...
+[22:17:44] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[22:17:44] Elis: Я готова учиться.
+[22:17:44] Elis: Загружена модель из models\elis_best.pt
+[22:19:41] Elis: Epoch 1/50 - Train loss: 11.315971 - Val loss: 5.820715
+[22:19:41] Elis: Сохранила лучшую модель с потерей 5.820715
+[22:21:42] Elis: Epoch 2/50 - Train loss: 11.201523 - Val loss: 7.316625
+[22:23:38] Elis: Epoch 3/50 - Train loss: 11.113052 - Val loss: 15.107936
+[22:25:36] Elis: Epoch 4/50 - Train loss: 10.967014 - Val loss: 9.416176
+[22:27:32] Elis: Epoch 5/50 - Train loss: 10.894594 - Val loss: 8.088809
+[22:27:32] Elis: Промежуточная генерация после эпохи 5: U=вбршкеь=
+[22:29:23] Elis: Epoch 6/50 - Train loss: 11.013001 - Val loss: 6.354839
+[22:31:16] Elis: Epoch 7/50 - Train loss: 10.861064 - Val loss: 7.785639
+[22:33:08] Elis: Epoch 8/50 - Train loss: 10.796767 - Val loss: 10.723288
+[22:34:59] Elis: Epoch 9/50 - Train loss: 10.822653 - Val loss: 9.863078
+[22:36:53] Elis: Epoch 10/50 - Train loss: 10.779715 - Val loss: 7.430055
+[22:36:53] Elis: Промежуточная генерация после эпохи 10: u=мёерт=
+[22:38:48] Elis: Epoch 11/50 - Train loss: 10.497203 - Val loss: 14.139375
+[22:40:40] Elis: Epoch 12/50 - Train loss: 10.521784 - Val loss: 11.128712
+[22:42:33] Elis: Epoch 13/50 - Train loss: 10.419579 - Val loss: 15.360610
+[22:44:26] Elis: Epoch 14/50 - Train loss: 10.530020 - Val loss: 6.244017
+[22:46:17] Elis: Epoch 15/50 - Train loss: 10.499399 - Val loss: 12.478762
+[22:46:17] Elis: Промежуточная генерация после эпохи 15: р=якм нд;ш;`ьб=
+[22:48:06] Elis: Epoch 16/50 - Train loss: 10.442498 - Val loss: 7.084059
+[22:49:46] Elis: Epoch 17/50 - Train loss: 10.374081 - Val loss: 10.908809
+[22:51:25] Elis: Epoch 18/50 - Train loss: 10.319803 - Val loss: 11.956053
+[22:53:11] Elis: Epoch 19/50 - Train loss: 10.281668 - Val loss: 9.622263
+[22:55:04] Elis: Epoch 20/50 - Train loss: 10.352772 - Val loss: 15.822361
+[22:55:04] Elis: Промежуточная генерация после эпохи 20: z=ёыаатачарклсюьо ;тдлт  =
+[22:56:58] Elis: Epoch 21/50 - Train loss: 10.209261 - Val loss: 12.324917
+[22:58:49] Elis: Epoch 22/50 - Train loss: 10.133157 - Val loss: 7.802121
+[23:00:42] Elis: Epoch 23/50 - Train loss: 9.784180 - Val loss: 9.192633
+[23:02:22] Elis: Epoch 24/50 - Train loss: 9.958176 - Val loss: 15.089513
+[23:04:01] Elis: Epoch 25/50 - Train loss: 9.907823 - Val loss: 7.818524
+[23:04:02] Elis: Промежуточная генерация после эпохи 25: р=пфбстдвсб.яя ы. оыбеамаьонм ш о прей к .чсвою! еео.оаг!оеееом=
+[23:05:40] Elis: Epoch 26/50 - Train loss: 9.766619 - Val loss: 18.953207
+[23:07:20] Elis: Epoch 27/50 - Train loss: 9.710453 - Val loss: 8.725007
+[23:08:59] Elis: Epoch 28/50 - Train loss: 9.864552 - Val loss: 18.508093
+[23:10:38] Elis: Epoch 29/50 - Train loss: 9.688557 - Val loss: 6.034283
+[23:12:17] Elis: Epoch 30/50 - Train loss: 9.569030 - Val loss: 11.202343
+[23:12:17] Elis: Промежуточная генерация после эпохи 30: m=т бьоёсв нсюнд  ар=
+[23:13:58] Elis: Epoch 31/50 - Train loss: 9.550333 - Val loss: 10.094682
+[23:15:36] Elis: Epoch 32/50 - Train loss: 9.517480 - Val loss: 8.278250
+[23:17:15] Elis: Epoch 33/50 - Train loss: 9.607043 - Val loss: 8.238958
+[23:18:55] Elis: Epoch 34/50 - Train loss: 9.549617 - Val loss: 10.032017
+[23:20:35] Elis: Epoch 35/50 - Train loss: 9.470362 - Val loss: 10.709225
+[23:20:35] Elis: Промежуточная генерация после эпохи 35: J=пьу мгтылабе емрас п ее  у тмо фвд=
+[23:22:12] Elis: Epoch 36/50 - Train loss: 9.551251 - Val loss: 13.947121
+[23:23:48] Elis: Epoch 37/50 - Train loss: 9.460384 - Val loss: 8.674338
+[23:25:27] Elis: Epoch 38/50 - Train loss: 9.387524 - Val loss: 8.839049
+[23:27:05] Elis: Epoch 39/50 - Train loss: 9.317992 - Val loss: 6.037848
+[23:28:42] Elis: Epoch 40/50 - Train loss: 9.292271 - Val loss: 10.439980
+[23:28:42] Elis: Промежуточная генерация после эпохи 40: _= ж мчматоаеомеяр вуат ; н даес шшдлменгрнбя оптстае ддтпвв н  кгуая!а=
+[23:30:23] Elis: Epoch 41/50 - Train loss: 9.206077 - Val loss: 6.795683
+[23:32:11] Elis: Epoch 42/50 - Train loss: 9.170220 - Val loss: 7.296528
+[23:33:50] Elis: Epoch 43/50 - Train loss: 9.106103 - Val loss: 7.655831
+[23:35:30] Elis: Epoch 44/50 - Train loss: 9.200767 - Val loss: 6.807668
+[23:37:11] Elis: Epoch 45/50 - Train loss: 8.946276 - Val loss: 10.074579
+[23:37:11] Elis: Промежуточная генерация после эпохи 45: d=б н отю оо аа  шн;  шо! д =
+[23:38:56] Elis: Epoch 46/50 - Train loss: 8.992726 - Val loss: 6.229644
+[23:40:35] Elis: Epoch 47/50 - Train loss: 8.918568 - Val loss: 6.150675
+[23:42:18] Elis: Epoch 48/50 - Train loss: 8.901296 - Val loss: 15.533089
+[23:44:01] Elis: Epoch 49/50 - Train loss: 8.876968 - Val loss: 7.410786
+[23:45:46] Elis: Epoch 50/50 - Train loss: 8.961994 - Val loss: 7.709729
+[23:45:46] Elis: Промежуточная генерация после эпохи 50: Ч=паасов!ео я н рлыс ме хввн у   м ычоа!р.очрюетон мм а ога ест!й ылса!  нпат.   е о б  н ае г. у!ы о
+[23:45:46] Elis: Сохранила финальную модель.
+[23:45:47] Elis: Я сгенерировал: S= ь ;т=

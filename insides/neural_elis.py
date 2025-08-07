@@ -23,10 +23,10 @@ def letter_to_tensor(letter):
     return tensor
 
 def line_to_tensor(line):
-    tensor = torch.zeros(len(line), 1, N_LETTERS)
+    tensor = torch.zeros(len(line), N_LETTERS)
     for i, letter in enumerate(line):
         if letter in ALL_LETTERS:
-            tensor[i][0][ALL_LETTERS.index(letter)] = 1
+            tensor[i][ALL_LETTERS.index(letter)] = 1
     return tensor
 
 class ElisLSTM(nn.Module):
@@ -68,7 +68,7 @@ def load_partial_weights(old_model_path, new_model):
 
 rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(rnn.parameters(), lr=0.0001)
+optimizer = optim.Adam(rnn.parameters(), lr=0.001)
 
 MODEL_PATH = "models/elis_best.pt"
 if os.path.exists(MODEL_PATH):
