@@ -8,8 +8,7 @@ ALL_LETTERS = (
     string.ascii_letters + 
     "0123456789" +
     "+`-*/= .,;!?_\\/№#@&()[]<>\"\'^$%~|" +
-    "абвгдеёжзийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ" +
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"  
+    "абвгдеёжзийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ"  
 )
 
 N_LETTERS = len(ALL_LETTERS)
