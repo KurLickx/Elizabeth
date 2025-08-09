@@ -141,8 +141,8 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 1    #
-    batch_size = 512 #
+    epochs = 1000    #тыкай
+    batch_size = 512 #уже не тыкай
     val_ratio = 0.1
 
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)
