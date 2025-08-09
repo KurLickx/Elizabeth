@@ -1,0 +1,1184 @@
+[19:50:14] Elis: Утро
+[19:50:14] Elis: Читаю свою личность...
+[19:50:14] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[19:50:14] Elis: Я готова учиться.
+[19:50:17] Elis: Epoch 1/500 - Train loss: 5.081509 - Val loss: 3.721316
+[19:50:17] Elis: Сохранила лучшую модель с потерей 3.721316
+[19:50:20] Elis: Epoch 2/500 - Train loss: 3.791317 - Val loss: 3.862669
+[19:50:23] Elis: Epoch 3/500 - Train loss: 4.156962 - Val loss: 4.236231
+[19:50:27] Elis: Epoch 4/500 - Train loss: 4.048374 - Val loss: 3.816792
+[19:50:30] Elis: Epoch 5/500 - Train loss: 3.604436 - Val loss: 0.000000
+[19:50:30] Elis: Сохранила лучшую модель с потерей 0.000000
+[19:50:34] Elis: Epoch 6/500 - Train loss: 3.648666 - Val loss: 3.441880
+[20:05:21] Elis: Утро
+[20:05:21] Elis: Читаю свою личность...
+[20:05:21] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:05:21] Elis: Я готова учиться.
+[20:05:24] Elis: Epoch 1/500 - Train loss: 5.078370 - Val loss: 4.130469
+[20:05:24] Elis: Сохранила лучшую модель с потерей 4.130469
+[20:05:27] Elis: Epoch 2/500 - Train loss: 3.752129 - Val loss: 4.077712
+[20:05:27] Elis: Сохранила лучшую модель с потерей 4.077712
+[20:05:31] Elis: Epoch 3/500 - Train loss: 4.153065 - Val loss: 3.949538
+[20:05:31] Elis: Сохранила лучшую модель с потерей 3.949538
+[20:23:31] Elis: Утро
+[20:23:31] Elis: Читаю свою личность...
+[20:23:31] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:23:31] Elis: Я готова учиться.
+[20:23:35] Elis: Epoch 1/500 - Train loss: 5.074770 - Val loss: 3.800678
+[20:23:35] Elis: Сохранила лучшую модель с потерей 3.800678
+[20:23:38] Elis: Epoch 2/500 - Train loss: 3.785205 - Val loss: 3.585839
+[20:23:38] Elis: Сохранила лучшую модель с потерей 3.585839
+[20:23:41] Elis: Epoch 3/500 - Train loss: 4.003094 - Val loss: 3.976918
+[20:23:44] Elis: Epoch 4/500 - Train loss: 3.944073 - Val loss: 3.572631
+[20:23:44] Elis: Сохранила лучшую модель с потерей 3.572631
+[20:23:48] Elis: Epoch 5/500 - Train loss: 3.679213 - Val loss: 3.640136
+[20:23:51] Elis: Epoch 6/500 - Train loss: 3.584240 - Val loss: 3.508062
+[20:23:51] Elis: Сохранила лучшую модель с потерей 3.508062
+[20:23:54] Elis: Epoch 7/500 - Train loss: 3.538368 - Val loss: 3.679887
+[20:23:59] Elis: Epoch 8/500 - Train loss: 3.593144 - Val loss: 4.027352
+[20:24:03] Elis: Epoch 9/500 - Train loss: 3.534744 - Val loss: 3.289612
+[20:24:03] Elis: Сохранила лучшую модель с потерей 3.289612
+[20:24:07] Elis: Epoch 10/500 - Train loss: 3.433014 - Val loss: 3.278176
+[20:24:07] Elis: Сохранила лучшую модель с потерей 3.278176
+[20:24:11] Elis: Epoch 11/500 - Train loss: 3.379218 - Val loss: 3.325905
+[20:24:15] Elis: Epoch 12/500 - Train loss: 3.319244 - Val loss: 2.879849
+[20:24:15] Elis: Сохранила лучшую модель с потерей 2.879849
+[20:24:19] Elis: Epoch 13/500 - Train loss: 3.261063 - Val loss: 3.403867
+[20:24:23] Elis: Epoch 14/500 - Train loss: 3.209980 - Val loss: 3.248693
+[20:24:26] Elis: Epoch 15/500 - Train loss: 3.155780 - Val loss: 3.115635
+[20:24:30] Elis: Epoch 16/500 - Train loss: 3.115478 - Val loss: 2.955417
+[20:24:34] Elis: Epoch 17/500 - Train loss: 3.097694 - Val loss: 3.163939
+[20:24:38] Elis: Epoch 18/500 - Train loss: 3.085779 - Val loss: 0.000000
+[20:24:38] Elis: Сохранила лучшую модель с потерей 0.000000
+[20:24:42] Elis: Epoch 19/500 - Train loss: 3.072273 - Val loss: 2.794172
+[20:24:47] Elis: Epoch 20/500 - Train loss: 3.069655 - Val loss: 2.828446
+[20:24:51] Elis: Epoch 21/500 - Train loss: 3.058424 - Val loss: 3.139910
+[20:24:55] Elis: Epoch 22/500 - Train loss: 3.044146 - Val loss: 2.949702
+[20:24:58] Elis: Epoch 23/500 - Train loss: 3.047899 - Val loss: 3.092778
+[20:25:02] Elis: Epoch 24/500 - Train loss: 3.093381 - Val loss: 3.449061
+[20:25:05] Elis: Epoch 25/500 - Train loss: 3.039526 - Val loss: 2.828528
+[20:33:45] Elis: Утро
+[20:33:45] Elis: Читаю свою личность...
+[20:33:45] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:33:45] Elis: Я готова учиться.
+[20:33:45] Elis: Загружена модель из models\elis_best.pt
+[20:33:49] Elis: Epoch 1/500 - Train loss: 3.075935 - Val loss: 4.075262
+[20:33:49] Elis: Сохранила лучшую модель с потерей 4.075262
+[20:33:53] Elis: Epoch 2/500 - Train loss: 3.603431 - Val loss: 4.030854
+[20:33:53] Elis: Сохранила лучшую модель с потерей 4.030854
+[20:33:56] Elis: Epoch 3/500 - Train loss: 3.902133 - Val loss: 2.903969
+[20:33:57] Elis: Сохранила лучшую модель с потерей 2.903969
+[20:34:00] Elis: Epoch 4/500 - Train loss: 3.122408 - Val loss: 3.420338
+[20:34:05] Elis: Epoch 5/500 - Train loss: 3.186558 - Val loss: 2.915728
+[20:34:09] Elis: Epoch 6/500 - Train loss: 3.133424 - Val loss: 3.129045
+[20:34:14] Elis: Epoch 7/500 - Train loss: 3.215490 - Val loss: 3.179487
+[20:34:19] Elis: Epoch 8/500 - Train loss: 3.099440 - Val loss: 3.161195
+[20:34:24] Elis: Epoch 9/500 - Train loss: 3.091004 - Val loss: 3.152937
+[20:34:29] Elis: Epoch 10/500 - Train loss: 3.111424 - Val loss: 2.443462
+[20:34:29] Elis: Сохранила лучшую модель с потерей 2.443462
+[20:34:34] Elis: Epoch 11/500 - Train loss: 3.082804 - Val loss: 2.804386
+[20:34:39] Elis: Epoch 12/500 - Train loss: 3.062925 - Val loss: 3.093062
+[20:34:44] Elis: Epoch 13/500 - Train loss: 3.042212 - Val loss: 0.000000
+[20:34:44] Elis: Сохранила лучшую модель с потерей 0.000000
+[20:34:49] Elis: Epoch 14/500 - Train loss: 3.041168 - Val loss: 3.119869
+[20:34:54] Elis: Epoch 15/500 - Train loss: 3.057928 - Val loss: 2.921956
+[20:34:59] Elis: Epoch 16/500 - Train loss: 3.035842 - Val loss: 3.065248
+[20:35:03] Elis: Epoch 17/500 - Train loss: 3.080931 - Val loss: 2.956657
+[20:35:08] Elis: Epoch 18/500 - Train loss: 3.035142 - Val loss: 3.373057
+[20:35:13] Elis: Epoch 19/500 - Train loss: 3.047328 - Val loss: 2.935812
+[20:35:19] Elis: Epoch 20/500 - Train loss: 3.027252 - Val loss: 2.997883
+[20:35:24] Elis: Epoch 21/500 - Train loss: 3.033760 - Val loss: 2.952552
+[20:35:29] Elis: Epoch 22/500 - Train loss: 3.036208 - Val loss: 3.313451
+[20:35:35] Elis: Epoch 23/500 - Train loss: 3.028937 - Val loss: 3.038184
+[20:35:40] Elis: Epoch 24/500 - Train loss: 3.011864 - Val loss: 3.386210
+[20:35:46] Elis: Epoch 25/500 - Train loss: 3.023043 - Val loss: 2.871785
+[20:39:35] Elis: Утро
+[20:39:35] Elis: Читаю свою личность...
+[20:39:35] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:39:35] Elis: Я готова учиться.
+[20:39:35] Elis: Загружена модель из models\elis_best.pt
+[20:39:40] Elis: Epoch 1/500 - Train loss: 3.050448 - Val loss: 3.546687
+[20:39:40] Elis: Сохранила лучшую модель с потерей 3.546687
+[20:39:45] Elis: Epoch 2/500 - Train loss: 3.528090 - Val loss: 3.255995
+[20:39:45] Elis: Сохранила лучшую модель с потерей 3.255995
+[20:39:50] Elis: Epoch 3/500 - Train loss: 3.178454 - Val loss: 2.872952
+[20:39:50] Elis: Сохранила лучшую модель с потерей 2.872952
+[20:39:57] Elis: Epoch 4/500 - Train loss: 3.088320 - Val loss: 3.134937
+[20:40:16] Elis: Утро
+[20:40:16] Elis: Читаю свою личность...
+[20:40:16] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:40:16] Elis: Я готова учиться.
+[20:40:16] Elis: Загружена модель из models\elis_best.pt
+[20:40:22] Elis: Epoch 1/500 - Train loss: 3.091872 - Val loss: 3.520504
+[20:40:22] Elis: Сохранила лучшую модель с потерей 3.520504
+[20:40:27] Elis: Epoch 2/500 - Train loss: 3.406353 - Val loss: 3.274662
+[20:40:27] Elis: Сохранила лучшую модель с потерей 3.274662
+[20:40:34] Elis: Epoch 3/500 - Train loss: 3.433062 - Val loss: 3.546815
+[20:40:41] Elis: Epoch 4/500 - Train loss: 3.181858 - Val loss: 3.227098
+[20:40:41] Elis: Сохранила лучшую модель с потерей 3.227098
+[20:40:48] Elis: Epoch 5/500 - Train loss: 3.094027 - Val loss: 3.121143
+[20:40:48] Elis: Сохранила лучшую модель с потерей 3.121143
+[20:40:54] Elis: Epoch 6/500 - Train loss: 3.113170 - Val loss: 3.610190
+[20:41:01] Elis: Epoch 7/500 - Train loss: 3.134848 - Val loss: 3.299186
+[20:41:08] Elis: Epoch 8/500 - Train loss: 3.130286 - Val loss: 3.215152
+[20:41:15] Elis: Epoch 9/500 - Train loss: 3.114842 - Val loss: 2.983221
+[20:41:15] Elis: Сохранила лучшую модель с потерей 2.983221
+[20:41:20] Elis: Epoch 10/500 - Train loss: 3.089300 - Val loss: 3.220690
+[20:41:25] Elis: Epoch 11/500 - Train loss: 3.064204 - Val loss: 2.927264
+[20:41:25] Elis: Сохранила лучшую модель с потерей 2.927264
+[20:41:29] Elis: Epoch 12/500 - Train loss: 3.033177 - Val loss: 2.932688
+[20:41:33] Elis: Epoch 13/500 - Train loss: 3.033002 - Val loss: 2.658346
+[20:41:33] Elis: Сохранила лучшую модель с потерей 2.658346
+[20:41:36] Elis: Epoch 14/500 - Train loss: 3.022074 - Val loss: 2.970163
+[20:41:40] Elis: Epoch 15/500 - Train loss: 3.029557 - Val loss: 3.015400
+[20:41:44] Elis: Epoch 16/500 - Train loss: 3.026033 - Val loss: 3.514306
+[20:41:47] Elis: Epoch 17/500 - Train loss: 3.024990 - Val loss: 3.112737
+[20:41:50] Elis: Epoch 18/500 - Train loss: 3.015330 - Val loss: 2.923742
+[20:41:54] Elis: Epoch 19/500 - Train loss: 3.004950 - Val loss: 2.596988
+[20:41:54] Elis: Сохранила лучшую модель с потерей 2.596988
+[20:41:57] Elis: Epoch 20/500 - Train loss: 3.006573 - Val loss: 3.385794
+[20:42:00] Elis: Epoch 21/500 - Train loss: 3.006847 - Val loss: 3.156934
+[20:42:04] Elis: Epoch 22/500 - Train loss: 2.998873 - Val loss: 3.069935
+[20:42:07] Elis: Epoch 23/500 - Train loss: 2.994033 - Val loss: 3.047157
+[20:42:11] Elis: Epoch 24/500 - Train loss: 2.983942 - Val loss: 2.808350
+[20:42:14] Elis: Epoch 25/500 - Train loss: 2.986036 - Val loss: 2.758473
+[20:49:38] Elis: Утро
+[20:49:38] Elis: Читаю свою личность...
+[20:49:38] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[20:49:38] Elis: Я готова учиться.
+[20:49:38] Elis: Загружена модель из models\elis_best.pt
+[20:49:42] Elis: Epoch 1/500 - Train loss: 3.005173 - Val loss: 3.142425
+[20:49:42] Elis: Сохранила лучшую модель с потерей 3.142425
+[20:49:45] Elis: Epoch 2/500 - Train loss: 3.227546 - Val loss: 3.209794
+[20:49:48] Elis: Epoch 3/500 - Train loss: 3.067602 - Val loss: 3.049953
+[20:49:48] Elis: Сохранила лучшую модель с потерей 3.049953
+[20:49:51] Elis: Epoch 4/500 - Train loss: 3.067767 - Val loss: 3.047750
+[20:49:51] Elis: Сохранила лучшую модель с потерей 3.047750
+[20:49:55] Elis: Epoch 5/500 - Train loss: 3.080673 - Val loss: 3.331915
+[20:49:58] Elis: Epoch 6/500 - Train loss: 3.062620 - Val loss: 3.258510
+[20:50:02] Elis: Epoch 7/500 - Train loss: 3.035143 - Val loss: 2.912740
+[20:50:02] Elis: Сохранила лучшую модель с потерей 2.912740
+[20:50:05] Elis: Epoch 8/500 - Train loss: 3.036108 - Val loss: 2.919150
+[20:50:08] Elis: Epoch 9/500 - Train loss: 3.024858 - Val loss: 2.869829
+[20:50:08] Elis: Сохранила лучшую модель с потерей 2.869829
+[20:50:12] Elis: Epoch 10/500 - Train loss: 3.020406 - Val loss: 0.000000
+[20:50:12] Elis: Сохранила лучшую модель с потерей 0.000000
+[20:50:15] Elis: Epoch 11/500 - Train loss: 3.013961 - Val loss: 2.865891
+[20:50:19] Elis: Epoch 12/500 - Train loss: 3.008328 - Val loss: 2.896804
+[20:50:22] Elis: Epoch 13/500 - Train loss: 3.009018 - Val loss: 2.663062
+[20:50:26] Elis: Epoch 14/500 - Train loss: 2.996724 - Val loss: 2.917161
+[20:50:29] Elis: Epoch 15/500 - Train loss: 2.985793 - Val loss: 3.248612
+[20:50:32] Elis: Epoch 16/500 - Train loss: 2.974783 - Val loss: 2.924468
+[20:50:36] Elis: Epoch 17/500 - Train loss: 2.967307 - Val loss: 2.787193
+[20:50:39] Elis: Epoch 18/500 - Train loss: 2.967972 - Val loss: 2.964530
+[20:50:43] Elis: Epoch 19/500 - Train loss: 2.944435 - Val loss: 2.963188
+[20:50:47] Elis: Epoch 20/500 - Train loss: 2.919208 - Val loss: 3.340328
+[20:50:51] Elis: Epoch 21/500 - Train loss: 2.904701 - Val loss: 3.003092
+[20:50:56] Elis: Epoch 22/500 - Train loss: 2.880394 - Val loss: 3.283922
+[20:51:01] Elis: Epoch 23/500 - Train loss: 2.914973 - Val loss: 3.185038
+[20:51:04] Elis: Epoch 24/500 - Train loss: 2.985086 - Val loss: 2.980926
+[20:51:08] Elis: Epoch 25/500 - Train loss: 2.887457 - Val loss: 2.807872
+[20:51:09] Elis: Промежуточная генерация после эпохи 25: O У вйлтдзьдерн?ысб!во.тгн ту?сс!озо.!вт!ливпаки? ы!тн-ьяттть ксго.юуи??сет.?еь?орнлгиьмкашь?вотр.ю?к
+[20:51:12] Elis: Epoch 26/500 - Train loss: 2.888372 - Val loss: 2.707886
+[20:51:16] Elis: Epoch 27/500 - Train loss: 2.875166 - Val loss: 2.791907
+[20:51:19] Elis: Epoch 28/500 - Train loss: 2.854090 - Val loss: 2.942722
+[20:51:23] Elis: Epoch 29/500 - Train loss: 2.836214 - Val loss: 2.667951
+[20:51:26] Elis: Epoch 30/500 - Train loss: 2.811755 - Val loss: 3.013226
+[20:51:30] Elis: Epoch 31/500 - Train loss: 2.784362 - Val loss: 2.965085
+[20:51:34] Elis: Epoch 32/500 - Train loss: 2.794122 - Val loss: 2.528902
+[20:51:37] Elis: Epoch 33/500 - Train loss: 2.767053 - Val loss: 2.766182
+[20:51:41] Elis: Epoch 34/500 - Train loss: 2.723856 - Val loss: 2.727523
+[20:51:45] Elis: Epoch 35/500 - Train loss: 2.711268 - Val loss: 2.796784
+[20:51:49] Elis: Epoch 36/500 - Train loss: 2.701657 - Val loss: 2.724950
+[20:51:52] Elis: Epoch 37/500 - Train loss: 2.687083 - Val loss: 3.084149
+[20:51:56] Elis: Epoch 38/500 - Train loss: 2.683006 - Val loss: 2.384909
+[20:52:01] Elis: Epoch 39/500 - Train loss: 2.789917 - Val loss: 2.971536
+[20:52:04] Elis: Epoch 40/500 - Train loss: 2.843717 - Val loss: 3.165224
+[20:52:08] Elis: Epoch 41/500 - Train loss: 2.668360 - Val loss: 2.391236
+[20:52:12] Elis: Epoch 42/500 - Train loss: 2.719444 - Val loss: 2.485803
+[20:52:16] Elis: Epoch 43/500 - Train loss: 2.699205 - Val loss: 2.529092
+[20:52:20] Elis: Epoch 44/500 - Train loss: 2.666672 - Val loss: 2.778296
+[20:52:23] Elis: Epoch 45/500 - Train loss: 2.683031 - Val loss: 2.526626
+[20:52:27] Elis: Epoch 46/500 - Train loss: 2.658225 - Val loss: 2.390903
+[20:52:31] Elis: Epoch 47/500 - Train loss: 2.625386 - Val loss: 2.471493
+[20:52:34] Elis: Epoch 48/500 - Train loss: 2.612110 - Val loss: 2.608064
+[20:52:38] Elis: Epoch 49/500 - Train loss: 2.607901 - Val loss: 2.488152
+[20:52:42] Elis: Epoch 50/500 - Train loss: 2.563793 - Val loss: 2.696851
+[20:52:43] Elis: Промежуточная генерация после эпохи 50: р Посдагнай дал! пылсьрыткаягслсюн ейдуеду!мниньли тею эв я зраганнело у. бе?не бгомней тмараникьгьлы
+[20:52:46] Elis: Epoch 51/500 - Train loss: 2.567932 - Val loss: 2.433628
+[20:52:50] Elis: Epoch 52/500 - Train loss: 2.573883 - Val loss: 2.538044
+[20:52:54] Elis: Epoch 53/500 - Train loss: 2.528655 - Val loss: 2.581373
+[20:52:57] Elis: Epoch 54/500 - Train loss: 2.527769 - Val loss: 2.765427
+[20:53:01] Elis: Epoch 55/500 - Train loss: 2.506152 - Val loss: 2.313517
+[20:53:04] Elis: Epoch 56/500 - Train loss: 2.500277 - Val loss: 2.836814
+[20:53:08] Elis: Epoch 57/500 - Train loss: 2.545353 - Val loss: 2.350858
+[20:53:11] Elis: Epoch 58/500 - Train loss: 2.528394 - Val loss: 2.482880
+[20:53:15] Elis: Epoch 59/500 - Train loss: 2.501715 - Val loss: 2.240746
+[20:53:18] Elis: Epoch 60/500 - Train loss: 2.471206 - Val loss: 2.507417
+[20:53:21] Elis: Epoch 61/500 - Train loss: 2.490908 - Val loss: 2.282514
+[20:53:25] Elis: Epoch 62/500 - Train loss: 2.432406 - Val loss: 2.357086
+[20:53:28] Elis: Epoch 63/500 - Train loss: 2.452567 - Val loss: 2.724255
+[20:53:31] Elis: Epoch 64/500 - Train loss: 2.404343 - Val loss: 2.885615
+[20:53:35] Elis: Epoch 65/500 - Train loss: 2.408337 - Val loss: 2.371293
+[20:53:38] Elis: Epoch 66/500 - Train loss: 2.402738 - Val loss: 2.232626
+[20:53:41] Elis: Epoch 67/500 - Train loss: 2.365794 - Val loss: 2.746117
+[20:53:45] Elis: Epoch 68/500 - Train loss: 2.357473 - Val loss: 1.760210
+[20:53:48] Elis: Epoch 69/500 - Train loss: 2.330913 - Val loss: 2.475801
+[20:53:52] Elis: Epoch 70/500 - Train loss: 2.331841 - Val loss: 2.958946
+[20:53:55] Elis: Epoch 71/500 - Train loss: 2.312237 - Val loss: 2.023931
+[20:53:59] Elis: Epoch 72/500 - Train loss: 2.319936 - Val loss: 2.523713
+[20:54:02] Elis: Epoch 73/500 - Train loss: 2.281916 - Val loss: 2.854867
+[20:54:05] Elis: Epoch 74/500 - Train loss: 2.271106 - Val loss: 2.490796
+[20:54:09] Elis: Epoch 75/500 - Train loss: 2.272086 - Val loss: 2.123858
+[20:54:10] Elis: Промежуточная генерация после эпохи 75: Г Орошас! ибрда кыжи. пкеш! маетсдну?эток стутмвув.шштз?сотты чди!!.?и миить ..?Чло! ишьхе!........ .
+[20:54:13] Elis: Epoch 76/500 - Train loss: 2.292439 - Val loss: 1.502510
+[20:54:17] Elis: Epoch 77/500 - Train loss: 2.448129 - Val loss: 1.508391
+[20:54:20] Elis: Epoch 78/500 - Train loss: 2.295293 - Val loss: 2.108674
+[20:54:24] Elis: Epoch 79/500 - Train loss: 2.312850 - Val loss: 2.355109
+[20:54:27] Elis: Epoch 80/500 - Train loss: 2.290656 - Val loss: 1.282375
+[20:54:30] Elis: Epoch 81/500 - Train loss: 2.287904 - Val loss: 1.361105
+[20:54:34] Elis: Epoch 82/500 - Train loss: 2.208855 - Val loss: 2.013080
+[20:54:37] Elis: Epoch 83/500 - Train loss: 2.243725 - Val loss: 2.047234
+[20:54:40] Elis: Epoch 84/500 - Train loss: 2.197933 - Val loss: 2.241671
+[20:54:44] Elis: Epoch 85/500 - Train loss: 2.215389 - Val loss: 2.064418
+[20:54:47] Elis: Epoch 86/500 - Train loss: 2.165611 - Val loss: 2.325897
+[20:54:50] Elis: Epoch 87/500 - Train loss: 2.156233 - Val loss: 2.361593
+[20:54:54] Elis: Epoch 88/500 - Train loss: 2.133802 - Val loss: 2.470704
+[20:54:57] Elis: Epoch 89/500 - Train loss: 2.112847 - Val loss: 2.235478
+[20:55:00] Elis: Epoch 90/500 - Train loss: 2.114692 - Val loss: 1.892577
+[20:55:04] Elis: Epoch 91/500 - Train loss: 2.083108 - Val loss: 2.228381
+[20:55:07] Elis: Epoch 92/500 - Train loss: 2.082371 - Val loss: 1.959826
+[20:55:10] Elis: Epoch 93/500 - Train loss: 2.056614 - Val loss: 2.269485
+[20:55:14] Elis: Epoch 94/500 - Train loss: 2.062509 - Val loss: 1.561696
+[20:55:17] Elis: Epoch 95/500 - Train loss: 2.018096 - Val loss: 1.966836
+[20:55:21] Elis: Epoch 96/500 - Train loss: 2.003260 - Val loss: 1.796942
+[20:55:24] Elis: Epoch 97/500 - Train loss: 1.997787 - Val loss: 1.940505
+[20:55:27] Elis: Epoch 98/500 - Train loss: 1.963441 - Val loss: 2.344162
+[20:55:31] Elis: Epoch 99/500 - Train loss: 1.958231 - Val loss: 2.076348
+[20:55:34] Elis: Epoch 100/500 - Train loss: 1.917423 - Val loss: 2.416928
+[20:55:35] Elis: Промежуточная генерация после эпохи 100: F Сдело  точ тей!?Я зей . Чщнунвот?св. ийй. Чз.!ь?. Чсми ?огиве! Чще. Чэмней!...?метсвоспась ске иг?х
+[20:55:39] Elis: Epoch 101/500 - Train loss: 1.938093 - Val loss: 1.848858
+[20:55:42] Elis: Epoch 102/500 - Train loss: 1.959907 - Val loss: 1.919202
+[20:55:46] Elis: Epoch 103/500 - Train loss: 2.041723 - Val loss: 2.027571
+[20:55:50] Elis: Epoch 104/500 - Train loss: 2.015350 - Val loss: 2.547773
+[20:55:53] Elis: Epoch 105/500 - Train loss: 1.929014 - Val loss: 1.937236
+[20:55:58] Elis: Epoch 106/500 - Train loss: 1.975447 - Val loss: 2.057896
+[20:56:02] Elis: Epoch 107/500 - Train loss: 1.880165 - Val loss: 2.003302
+[20:56:05] Elis: Epoch 108/500 - Train loss: 1.914022 - Val loss: 1.642355
+[20:56:09] Elis: Epoch 109/500 - Train loss: 1.850107 - Val loss: 2.099311
+[20:56:12] Elis: Epoch 110/500 - Train loss: 1.851683 - Val loss: 1.473744
+[20:56:16] Elis: Epoch 111/500 - Train loss: 1.823765 - Val loss: 1.802868
+[20:56:19] Elis: Epoch 112/500 - Train loss: 1.831043 - Val loss: 1.156508
+[20:56:22] Elis: Epoch 113/500 - Train loss: 1.775070 - Val loss: 1.787283
+[20:56:25] Elis: Epoch 114/500 - Train loss: 1.762316 - Val loss: 1.483143
+[20:56:29] Elis: Epoch 115/500 - Train loss: 1.747787 - Val loss: 1.473502
+[20:56:32] Elis: Epoch 116/500 - Train loss: 1.711796 - Val loss: 1.912181
+[20:56:35] Elis: Epoch 117/500 - Train loss: 1.702630 - Val loss: 1.710988
+[20:56:39] Elis: Epoch 118/500 - Train loss: 1.696924 - Val loss: 1.552110
+[20:56:42] Elis: Epoch 119/500 - Train loss: 1.681258 - Val loss: 1.504194
+[20:56:45] Elis: Epoch 120/500 - Train loss: 1.672060 - Val loss: 1.178708
+[20:56:48] Elis: Epoch 121/500 - Train loss: 1.615265 - Val loss: 1.871701
+[20:56:51] Elis: Epoch 122/500 - Train loss: 1.634495 - Val loss: 1.540657
+[20:56:54] Elis: Epoch 123/500 - Train loss: 1.610877 - Val loss: 1.776091
+[20:56:58] Elis: Epoch 124/500 - Train loss: 1.598620 - Val loss: 1.593730
+[20:57:01] Elis: Epoch 125/500 - Train loss: 1.563311 - Val loss: 1.680666
+[20:57:01] Elis: Промежуточная генерация после эпохи 125: ц А воть важевьвну! Чль?с мвышов.?ивтеви  ввет пе!!. ?та!?Я сен. гыма?!.?юх. ама!!снатью снебкыя шинн
+[20:57:05] Elis: Epoch 126/500 - Train loss: 1.545415 - Val loss: 1.586145
+[20:57:08] Elis: Epoch 127/500 - Train loss: 1.522851 - Val loss: 1.759691
+[20:57:11] Elis: Epoch 128/500 - Train loss: 1.513270 - Val loss: 0.820522
+[20:57:14] Elis: Epoch 129/500 - Train loss: 1.498723 - Val loss: 1.542670
+[20:57:17] Elis: Epoch 130/500 - Train loss: 1.489033 - Val loss: 1.735925
+[20:57:20] Elis: Epoch 131/500 - Train loss: 1.535603 - Val loss: 0.000000
+[20:57:23] Elis: Epoch 132/500 - Train loss: 1.437565 - Val loss: 1.373505
+[20:57:26] Elis: Epoch 133/500 - Train loss: 1.451733 - Val loss: 1.203608
+[20:57:30] Elis: Epoch 134/500 - Train loss: 1.492537 - Val loss: 1.290662
+[20:57:33] Elis: Epoch 135/500 - Train loss: 1.438734 - Val loss: 0.877383
+[20:57:37] Elis: Epoch 136/500 - Train loss: 1.664188 - Val loss: 1.804613
+[20:57:40] Elis: Epoch 137/500 - Train loss: 1.622469 - Val loss: 1.144824
+[20:57:44] Elis: Epoch 138/500 - Train loss: 1.524748 - Val loss: 1.142891
+[20:57:47] Elis: Epoch 139/500 - Train loss: 1.437141 - Val loss: 1.802832
+[20:57:51] Elis: Epoch 140/500 - Train loss: 1.530503 - Val loss: 1.868850
+[20:57:54] Elis: Epoch 141/500 - Train loss: 1.429517 - Val loss: 1.628880
+[20:57:58] Elis: Epoch 142/500 - Train loss: 1.423464 - Val loss: 1.676036
+[20:58:01] Elis: Epoch 143/500 - Train loss: 1.373456 - Val loss: 0.000000
+[20:58:05] Elis: Epoch 144/500 - Train loss: 1.356143 - Val loss: 1.328907
+[20:58:08] Elis: Epoch 145/500 - Train loss: 1.301510 - Val loss: 1.324951
+[20:58:12] Elis: Epoch 146/500 - Train loss: 1.299767 - Val loss: 1.457394
+[20:58:15] Elis: Epoch 147/500 - Train loss: 1.276860 - Val loss: 1.363345
+[20:58:19] Elis: Epoch 148/500 - Train loss: 1.246360 - Val loss: 0.736477
+[20:58:22] Elis: Epoch 149/500 - Train loss: 1.217387 - Val loss: 1.004329
+[20:58:26] Elis: Epoch 150/500 - Train loss: 1.197871 - Val loss: 1.124748
+[20:58:27] Elis: Промежуточная генерация после эпохи 150: Ё Я варерут поснунровна! У колуки!!... У реро ни.?У вита огра!?ь ?нега?ретыщай! У . Чк я! У нуроргаты
+[20:58:30] Elis: Epoch 151/500 - Train loss: 1.183280 - Val loss: 1.089916
+[20:58:34] Elis: Epoch 152/500 - Train loss: 1.154578 - Val loss: 1.096962
+[20:58:37] Elis: Epoch 153/500 - Train loss: 1.137353 - Val loss: 0.943273
+[20:58:41] Elis: Epoch 154/500 - Train loss: 1.101850 - Val loss: 1.580421
+[20:58:45] Elis: Epoch 155/500 - Train loss: 1.082328 - Val loss: 1.308107
+[20:58:48] Elis: Epoch 156/500 - Train loss: 1.058509 - Val loss: 0.673513
+[20:58:52] Elis: Epoch 157/500 - Train loss: 1.045928 - Val loss: 1.434568
+[20:58:55] Elis: Epoch 158/500 - Train loss: 1.016298 - Val loss: 0.901033
+[20:58:59] Elis: Epoch 159/500 - Train loss: 1.003497 - Val loss: 1.008489
+[20:59:02] Elis: Epoch 160/500 - Train loss: 0.987029 - Val loss: 0.933153
+[20:59:06] Elis: Epoch 161/500 - Train loss: 0.959245 - Val loss: 0.932090
+[20:59:10] Elis: Epoch 162/500 - Train loss: 0.936276 - Val loss: 0.807981
+[20:59:13] Elis: Epoch 163/500 - Train loss: 0.917925 - Val loss: 0.000000
+[20:59:17] Elis: Epoch 164/500 - Train loss: 0.909243 - Val loss: 1.162701
+[20:59:20] Elis: Epoch 165/500 - Train loss: 0.885330 - Val loss: 0.776712
+[20:59:24] Elis: Epoch 166/500 - Train loss: 0.871175 - Val loss: 1.037927
+[20:59:28] Elis: Epoch 167/500 - Train loss: 0.882262 - Val loss: 0.785762
+[20:59:32] Elis: Epoch 168/500 - Train loss: 0.982668 - Val loss: 0.661989
+[20:59:35] Elis: Epoch 169/500 - Train loss: 1.241212 - Val loss: 1.626922
+[20:59:39] Elis: Epoch 170/500 - Train loss: 1.527453 - Val loss: 1.138415
+[20:59:42] Elis: Epoch 171/500 - Train loss: 1.082768 - Val loss: 1.683416
+[20:59:45] Elis: Epoch 172/500 - Train loss: 1.293788 - Val loss: 1.447847
+[20:59:49] Elis: Epoch 173/500 - Train loss: 1.039235 - Val loss: 0.867245
+[20:59:52] Elis: Epoch 174/500 - Train loss: 1.043869 - Val loss: 0.697683
+[20:59:55] Elis: Epoch 175/500 - Train loss: 1.054852 - Val loss: 0.951039
+[20:59:56] Elis: Промежуточная генерация после эпохи 175: э Давай посвраза?донить зышь? мвез?то!?У сон. ны соготовото. У боты огел зввоч!югет..!.. У! У вачоть.
+[20:59:59] Elis: Epoch 176/500 - Train loss: 0.930047 - Val loss: 0.582007
+[21:00:03] Elis: Epoch 177/500 - Train loss: 0.954967 - Val loss: 1.655080
+[21:00:06] Elis: Epoch 178/500 - Train loss: 0.861795 - Val loss: 1.030227
+[21:00:10] Elis: Epoch 179/500 - Train loss: 0.876476 - Val loss: 0.812119
+[21:00:13] Elis: Epoch 180/500 - Train loss: 0.839065 - Val loss: 0.843043
+[21:00:16] Elis: Epoch 181/500 - Train loss: 0.793301 - Val loss: 0.751723
+[21:00:20] Elis: Epoch 182/500 - Train loss: 0.789882 - Val loss: 0.808923
+[21:00:23] Elis: Epoch 183/500 - Train loss: 0.768489 - Val loss: 0.716639
+[21:00:26] Elis: Epoch 184/500 - Train loss: 0.735004 - Val loss: 0.693882
+[21:00:30] Elis: Epoch 185/500 - Train loss: 0.728492 - Val loss: 0.596559
+[21:00:33] Elis: Epoch 186/500 - Train loss: 0.706006 - Val loss: 0.949104
+[21:00:37] Elis: Epoch 187/500 - Train loss: 0.678893 - Val loss: 0.487900
+[21:00:40] Elis: Epoch 188/500 - Train loss: 0.667545 - Val loss: 0.665882
+[21:00:43] Elis: Epoch 189/500 - Train loss: 0.651181 - Val loss: 0.440162
+[21:00:47] Elis: Epoch 190/500 - Train loss: 0.637953 - Val loss: 0.318465
+[21:00:50] Elis: Epoch 191/500 - Train loss: 0.625289 - Val loss: 0.541174
+[21:00:54] Elis: Epoch 192/500 - Train loss: 0.598566 - Val loss: 0.661493
+[21:00:57] Elis: Epoch 193/500 - Train loss: 0.588691 - Val loss: 0.557454
+[21:01:01] Elis: Epoch 194/500 - Train loss: 0.575083 - Val loss: 0.485649
+[21:01:04] Elis: Epoch 195/500 - Train loss: 0.564275 - Val loss: 0.429175
+[21:01:08] Elis: Epoch 196/500 - Train loss: 0.546857 - Val loss: 0.799956
+[21:01:12] Elis: Epoch 197/500 - Train loss: 0.540379 - Val loss: 0.553370
+[21:01:16] Elis: Epoch 198/500 - Train loss: 0.525757 - Val loss: 0.534839
+[21:01:20] Elis: Epoch 199/500 - Train loss: 0.513725 - Val loss: 0.324210
+[21:01:23] Elis: Epoch 200/500 - Train loss: 0.498123 - Val loss: 0.650522
+[21:01:24] Elis: Промежуточная генерация после эпохи 200: X А ракета где?оя детьй! У ясбамнимик!?и?ь?деночек?. Чно за! У прыгись. Чсо манот. им ! ерфе!?и??слоб
+[21:01:28] Elis: Epoch 201/500 - Train loss: 0.491545 - Val loss: 0.763873
+[21:01:32] Elis: Epoch 202/500 - Train loss: 0.480845 - Val loss: 0.417652
+[21:01:35] Elis: Epoch 203/500 - Train loss: 0.470397 - Val loss: 0.761845
+[21:01:39] Elis: Epoch 204/500 - Train loss: 0.457318 - Val loss: 0.469824
+[21:01:43] Elis: Epoch 205/500 - Train loss: 0.456269 - Val loss: 0.424656
+[21:01:47] Elis: Epoch 206/500 - Train loss: 0.441287 - Val loss: 0.685515
+[21:01:51] Elis: Epoch 207/500 - Train loss: 0.431526 - Val loss: 0.435482
+[21:01:54] Elis: Epoch 208/500 - Train loss: 0.427343 - Val loss: 0.375211
+[21:01:58] Elis: Epoch 209/500 - Train loss: 0.418000 - Val loss: 0.344216
+[21:02:02] Elis: Epoch 210/500 - Train loss: 0.409515 - Val loss: 0.554837
+[21:02:06] Elis: Epoch 211/500 - Train loss: 0.400243 - Val loss: 0.411571
+[21:02:10] Elis: Epoch 212/500 - Train loss: 0.390558 - Val loss: 0.440381
+[21:02:14] Elis: Epoch 213/500 - Train loss: 0.389774 - Val loss: 0.297465
+[21:02:18] Elis: Epoch 214/500 - Train loss: 0.382993 - Val loss: 0.320958
+[21:02:22] Elis: Epoch 215/500 - Train loss: 0.378161 - Val loss: 0.493223
+[21:02:26] Elis: Epoch 216/500 - Train loss: 0.370569 - Val loss: 0.328460
+[21:02:30] Elis: Epoch 217/500 - Train loss: 0.365826 - Val loss: 0.000000
+[21:02:34] Elis: Epoch 218/500 - Train loss: 0.363727 - Val loss: 0.414715
+[21:02:38] Elis: Epoch 219/500 - Train loss: 0.354130 - Val loss: 0.279751
+[21:02:42] Elis: Epoch 220/500 - Train loss: 0.344953 - Val loss: 0.813819
+[21:02:46] Elis: Epoch 221/500 - Train loss: 0.342558 - Val loss: 0.713103
+[21:02:50] Elis: Epoch 222/500 - Train loss: 0.334434 - Val loss: 0.394778
+[21:02:54] Elis: Epoch 223/500 - Train loss: 0.337814 - Val loss: 0.400927
+[21:02:59] Elis: Epoch 224/500 - Train loss: 0.330756 - Val loss: 0.397861
+[21:03:03] Elis: Epoch 225/500 - Train loss: 0.329574 - Val loss: 0.312180
+[21:03:04] Elis: Промежуточная генерация после эпохи 225: ) Правда?я баут вигавкини?я э номи?ь нануто.?и  обоко!?е ??тьки !?е??. Что это?понфоты.?Чно?но упонфо
+[21:03:08] Elis: Epoch 226/500 - Train loss: 0.323404 - Val loss: 0.297015
+[21:03:12] Elis: Epoch 227/500 - Train loss: 0.320462 - Val loss: 0.292383
+[21:03:16] Elis: Epoch 228/500 - Train loss: 0.316482 - Val loss: 0.220175
+[21:03:20] Elis: Epoch 229/500 - Train loss: 0.315544 - Val loss: 0.000000
+[21:03:24] Elis: Epoch 230/500 - Train loss: 0.311945 - Val loss: 0.252353
+[21:03:28] Elis: Epoch 231/500 - Train loss: 0.307411 - Val loss: 0.271728
+[21:03:32] Elis: Epoch 232/500 - Train loss: 0.303802 - Val loss: 0.326817
+[21:03:36] Elis: Epoch 233/500 - Train loss: 0.300238 - Val loss: 0.344534
+[21:03:40] Elis: Epoch 234/500 - Train loss: 0.296527 - Val loss: 0.303320
+[21:03:44] Elis: Epoch 235/500 - Train loss: 0.297614 - Val loss: 0.236440
+[21:03:48] Elis: Epoch 236/500 - Train loss: 0.289709 - Val loss: 0.562426
+[21:03:52] Elis: Epoch 237/500 - Train loss: 0.291881 - Val loss: 0.364232
+[21:03:56] Elis: Epoch 238/500 - Train loss: 0.290057 - Val loss: 0.284110
+[21:04:00] Elis: Epoch 239/500 - Train loss: 0.289900 - Val loss: 0.342411
+[21:04:04] Elis: Epoch 240/500 - Train loss: 0.288364 - Val loss: 0.335529
+[21:04:09] Elis: Epoch 241/500 - Train loss: 0.283035 - Val loss: 0.302956
+[21:04:13] Elis: Epoch 242/500 - Train loss: 0.285001 - Val loss: 0.413977
+[21:04:17] Elis: Epoch 243/500 - Train loss: 0.280915 - Val loss: 0.234643
+[21:04:21] Elis: Epoch 244/500 - Train loss: 0.281609 - Val loss: 0.392080
+[21:04:25] Elis: Epoch 245/500 - Train loss: 0.279078 - Val loss: 0.275280
+[21:04:29] Elis: Epoch 246/500 - Train loss: 0.280433 - Val loss: 0.203379
+[21:04:34] Elis: Epoch 247/500 - Train loss: 0.273941 - Val loss: 0.546965
+[21:04:38] Elis: Epoch 248/500 - Train loss: 0.271725 - Val loss: 0.636462
+[21:04:42] Elis: Epoch 249/500 - Train loss: 0.272767 - Val loss: 0.272185
+[21:04:46] Elis: Epoch 250/500 - Train loss: 0.273631 - Val loss: 0.456520
+[21:04:47] Elis: Промежуточная генерация после эпохи 250: U А он отвечает?я мсей У сокнув.?и? коровки!!.!!! е  . Чу. У пятгот.?и?  не! и  а! имо пождения! У пя
+[21:04:51] Elis: Epoch 251/500 - Train loss: 0.270131 - Val loss: 0.270383
+[21:04:55] Elis: Epoch 252/500 - Train loss: 0.269610 - Val loss: 0.556733
+[21:05:00] Elis: Epoch 253/500 - Train loss: 0.267987 - Val loss: 0.344322
+[21:05:04] Elis: Epoch 254/500 - Train loss: 0.270174 - Val loss: 0.168653
+[21:05:08] Elis: Epoch 255/500 - Train loss: 0.266590 - Val loss: 0.565976
+[21:05:12] Elis: Epoch 256/500 - Train loss: 0.265823 - Val loss: 0.421921
+[21:05:16] Elis: Epoch 257/500 - Train loss: 0.272066 - Val loss: 0.248745
+[21:05:20] Elis: Epoch 258/500 - Train loss: 0.264424 - Val loss: 0.304576
+[21:05:25] Elis: Epoch 259/500 - Train loss: 0.265264 - Val loss: 0.195734
+[21:05:29] Elis: Epoch 260/500 - Train loss: 0.263027 - Val loss: 0.316348
+[21:05:34] Elis: Epoch 261/500 - Train loss: 0.262913 - Val loss: 0.231172
+[21:05:38] Elis: Epoch 262/500 - Train loss: 0.268078 - Val loss: 0.378578
+[21:05:42] Elis: Epoch 263/500 - Train loss: 0.267061 - Val loss: 0.209346
+[21:05:46] Elis: Epoch 264/500 - Train loss: 0.263667 - Val loss: 0.250976
+[21:05:50] Elis: Epoch 265/500 - Train loss: 0.259430 - Val loss: 0.271758
+[21:05:54] Elis: Epoch 266/500 - Train loss: 0.262490 - Val loss: 0.159922
+[21:05:59] Elis: Epoch 267/500 - Train loss: 0.256551 - Val loss: 0.346253
+[21:06:03] Elis: Epoch 268/500 - Train loss: 0.258765 - Val loss: 0.331859
+[21:06:07] Elis: Epoch 269/500 - Train loss: 0.263834 - Val loss: 0.247759
+[21:06:11] Elis: Epoch 270/500 - Train loss: 0.264423 - Val loss: 0.296804
+[21:06:15] Elis: Epoch 271/500 - Train loss: 0.259956 - Val loss: 0.500219
+[21:06:20] Elis: Epoch 272/500 - Train loss: 0.259864 - Val loss: 0.251581
+[21:06:24] Elis: Epoch 273/500 - Train loss: 0.255082 - Val loss: 0.325011
+[21:06:28] Elis: Epoch 274/500 - Train loss: 0.257824 - Val loss: 0.189269
+[21:06:33] Elis: Epoch 275/500 - Train loss: 0.257729 - Val loss: 0.349447
+[21:06:34] Elis: Промежуточная генерация после эпохи 275: я О ень босота! ихогыйт. Что эхо? обо?мной деревни! Чщо!соно! и ... У !.ы дерозумо! и . Чта ит! Уй!. 
+[21:06:38] Elis: Epoch 276/500 - Train loss: 0.255284 - Val loss: 0.235226
+[21:06:42] Elis: Epoch 277/500 - Train loss: 0.260699 - Val loss: 0.414279
+[21:06:47] Elis: Epoch 278/500 - Train loss: 0.256946 - Val loss: 0.362682
+[21:06:51] Elis: Epoch 279/500 - Train loss: 0.256140 - Val loss: 0.377969
+[21:06:55] Elis: Epoch 280/500 - Train loss: 0.256029 - Val loss: 0.324327
+[21:07:00] Elis: Epoch 281/500 - Train loss: 0.256310 - Val loss: 0.261431
+[21:07:04] Elis: Epoch 282/500 - Train loss: 0.256077 - Val loss: 0.308524
+[21:07:08] Elis: Epoch 283/500 - Train loss: 0.259078 - Val loss: 0.242321
+[21:07:12] Elis: Epoch 284/500 - Train loss: 0.263745 - Val loss: 0.278628
+[21:07:17] Elis: Epoch 285/500 - Train loss: 0.256653 - Val loss: 0.439746
+[21:07:21] Elis: Epoch 286/500 - Train loss: 0.258358 - Val loss: 0.218534
+[21:07:25] Elis: Epoch 287/500 - Train loss: 0.251359 - Val loss: 0.262208
+[21:07:29] Elis: Epoch 288/500 - Train loss: 0.254064 - Val loss: 0.362120
+[21:07:34] Elis: Epoch 289/500 - Train loss: 0.254059 - Val loss: 0.255704
+[21:07:38] Elis: Epoch 290/500 - Train loss: 0.254886 - Val loss: 0.298999
+[21:07:42] Elis: Epoch 291/500 - Train loss: 0.256170 - Val loss: 0.000000
+[21:07:47] Elis: Epoch 292/500 - Train loss: 0.254490 - Val loss: 0.155027
+[21:07:51] Elis: Epoch 293/500 - Train loss: 0.253869 - Val loss: 0.413709
+[21:07:56] Elis: Epoch 294/500 - Train loss: 0.252628 - Val loss: 0.351476
+[21:08:00] Elis: Epoch 295/500 - Train loss: 0.258658 - Val loss: 0.507545
+[21:08:04] Elis: Epoch 296/500 - Train loss: 0.254923 - Val loss: 0.219421
+[21:08:09] Elis: Epoch 297/500 - Train loss: 0.248771 - Val loss: 0.297620
+[21:08:13] Elis: Epoch 298/500 - Train loss: 0.250391 - Val loss: 0.235588
+[21:08:17] Elis: Epoch 299/500 - Train loss: 0.246911 - Val loss: 0.182979
+[21:08:22] Elis: Epoch 300/500 - Train loss: 0.256538 - Val loss: 0.310507
+[21:08:22] Elis: Промежуточная генерация после эпохи 300: 3 Посмотри ь! А ты?холроня потов!?и ?кыше???нобыю? мен. е? споть??. Что Что?Ч  коко. У вокочеть. смо!
+[21:08:27] Elis: Epoch 301/500 - Train loss: 0.254224 - Val loss: 0.000000
+[21:08:31] Elis: Epoch 302/500 - Train loss: 0.254296 - Val loss: 0.457465
+[21:08:36] Elis: Epoch 303/500 - Train loss: 0.251729 - Val loss: 0.422867
+[21:08:40] Elis: Epoch 304/500 - Train loss: 0.252938 - Val loss: 0.418114
+[21:08:44] Elis: Epoch 305/500 - Train loss: 0.248779 - Val loss: 0.286176
+[21:08:49] Elis: Epoch 306/500 - Train loss: 0.253175 - Val loss: 0.540726
+[21:08:53] Elis: Epoch 307/500 - Train loss: 0.249932 - Val loss: 0.178810
+[21:08:58] Elis: Epoch 308/500 - Train loss: 0.254776 - Val loss: 0.309085
+[21:09:02] Elis: Epoch 309/500 - Train loss: 0.250148 - Val loss: 0.290799
+[21:09:06] Elis: Epoch 310/500 - Train loss: 0.249489 - Val loss: 0.364776
+[21:09:11] Elis: Epoch 311/500 - Train loss: 0.249867 - Val loss: 0.122380
+[21:09:15] Elis: Epoch 312/500 - Train loss: 0.252092 - Val loss: 0.172224
+[21:09:20] Elis: Epoch 313/500 - Train loss: 0.249127 - Val loss: 0.317060
+[21:09:24] Elis: Epoch 314/500 - Train loss: 0.250366 - Val loss: 0.613515
+[21:09:29] Elis: Epoch 315/500 - Train loss: 0.248455 - Val loss: 0.241929
+[21:09:34] Elis: Epoch 316/500 - Train loss: 0.247170 - Val loss: 0.705875
+[21:09:38] Elis: Epoch 317/500 - Train loss: 0.249374 - Val loss: 0.541343
+[21:09:43] Elis: Epoch 318/500 - Train loss: 0.246757 - Val loss: 0.223763
+[21:09:47] Elis: Epoch 319/500 - Train loss: 0.248456 - Val loss: 0.355341
+[21:09:51] Elis: Epoch 320/500 - Train loss: 0.252987 - Val loss: 0.214203
+[21:09:56] Elis: Epoch 321/500 - Train loss: 0.248472 - Val loss: 0.287957
+[21:10:00] Elis: Epoch 322/500 - Train loss: 0.247925 - Val loss: 0.247620
+[21:10:05] Elis: Epoch 323/500 - Train loss: 0.250161 - Val loss: 0.387885
+[21:10:09] Elis: Epoch 324/500 - Train loss: 0.252221 - Val loss: 0.320292
+[21:10:14] Elis: Epoch 325/500 - Train loss: 0.252357 - Val loss: 0.123514
+[21:10:15] Elis: Промежуточная генерация после эпохи 325: х Лосскажешь? соншет! У яге?ко?пя ноя?мней?донфеты?зо субы?я?!...?до от.ки сввык! и?  нет?ть! У  опно
+[21:10:19] Elis: Epoch 326/500 - Train loss: 0.246422 - Val loss: 0.283061
+[21:10:24] Elis: Epoch 327/500 - Train loss: 0.248355 - Val loss: 0.278472
+[21:10:28] Elis: Epoch 328/500 - Train loss: 0.251489 - Val loss: 0.264822
+[21:10:33] Elis: Epoch 329/500 - Train loss: 0.251113 - Val loss: 0.261560
+[21:10:37] Elis: Epoch 330/500 - Train loss: 0.246739 - Val loss: 0.200072
+[21:10:42] Elis: Epoch 331/500 - Train loss: 0.251621 - Val loss: 0.303729
+[21:10:46] Elis: Epoch 332/500 - Train loss: 0.254401 - Val loss: 0.251137
+[21:10:51] Elis: Epoch 333/500 - Train loss: 0.247495 - Val loss: 0.644950
+[21:10:55] Elis: Epoch 334/500 - Train loss: 0.250661 - Val loss: 0.278978
+[21:11:01] Elis: Epoch 335/500 - Train loss: 0.247993 - Val loss: 0.317988
+[21:11:05] Elis: Epoch 336/500 - Train loss: 0.246102 - Val loss: 0.288803
+[21:11:10] Elis: Epoch 337/500 - Train loss: 0.248568 - Val loss: 0.203982
+[21:11:14] Elis: Epoch 338/500 - Train loss: 0.244762 - Val loss: 0.191418
+[21:11:19] Elis: Epoch 339/500 - Train loss: 0.248715 - Val loss: 0.230418
+[21:11:23] Elis: Epoch 340/500 - Train loss: 0.244675 - Val loss: 0.387432
+[21:11:28] Elis: Epoch 341/500 - Train loss: 0.248546 - Val loss: 0.165201
+[21:11:32] Elis: Epoch 342/500 - Train loss: 0.249311 - Val loss: 0.147042
+[21:11:36] Elis: Epoch 343/500 - Train loss: 0.247231 - Val loss: 0.239201
+[21:11:41] Elis: Epoch 344/500 - Train loss: 0.246747 - Val loss: 0.313970
+[21:11:46] Elis: Epoch 345/500 - Train loss: 0.246697 - Val loss: 0.195487
+[21:11:50] Elis: Epoch 346/500 - Train loss: 0.250053 - Val loss: 0.267963
+[21:11:55] Elis: Epoch 347/500 - Train loss: 0.246123 - Val loss: 0.280083
+[21:12:00] Elis: Epoch 348/500 - Train loss: 0.243889 - Val loss: 0.549428
+[21:12:06] Elis: Epoch 349/500 - Train loss: 0.248245 - Val loss: 0.322438
+[21:12:11] Elis: Epoch 350/500 - Train loss: 0.250800 - Val loss: 0.237954
+[21:12:12] Elis: Промежуточная генерация после эпохи 350: W О своих листьях. Ч о.! ол.. ет вологил... У пять...?У поточты. пото. У вас есть морковные конфеты?з
+[21:12:16] Elis: Epoch 351/500 - Train loss: 0.249191 - Val loss: 0.167317
+[21:12:22] Elis: Epoch 352/500 - Train loss: 0.248019 - Val loss: 0.369206
+[21:12:27] Elis: Epoch 353/500 - Train loss: 0.254529 - Val loss: 0.182178
+[21:12:32] Elis: Epoch 354/500 - Train loss: 0.245495 - Val loss: 0.855354
+[21:12:38] Elis: Epoch 355/500 - Train loss: 0.247993 - Val loss: 0.163553
+[21:12:43] Elis: Epoch 356/500 - Train loss: 0.249625 - Val loss: 0.184526
+[21:12:48] Elis: Epoch 357/500 - Train loss: 0.245605 - Val loss: 0.497420
+[21:12:53] Elis: Epoch 358/500 - Train loss: 0.248907 - Val loss: 0.224819
+[21:12:57] Elis: Epoch 359/500 - Train loss: 0.247877 - Val loss: 0.622896
+[21:13:02] Elis: Epoch 360/500 - Train loss: 0.246911 - Val loss: 0.229553
+[21:13:07] Elis: Epoch 361/500 - Train loss: 0.247905 - Val loss: 0.211395
+[21:13:12] Elis: Epoch 362/500 - Train loss: 0.246419 - Val loss: 0.315466
+[21:13:17] Elis: Epoch 363/500 - Train loss: 0.249717 - Val loss: 0.255634
+[21:13:23] Elis: Epoch 364/500 - Train loss: 0.250754 - Val loss: 0.285875
+[21:13:28] Elis: Epoch 365/500 - Train loss: 0.244784 - Val loss: 0.522306
+[21:13:33] Elis: Epoch 366/500 - Train loss: 0.244991 - Val loss: 0.339045
+[21:13:38] Elis: Epoch 367/500 - Train loss: 0.248925 - Val loss: 0.173999
+[21:13:43] Elis: Epoch 368/500 - Train loss: 0.244666 - Val loss: 0.342097
+[21:13:47] Elis: Epoch 369/500 - Train loss: 0.251415 - Val loss: 0.231064
+[21:13:52] Elis: Epoch 370/500 - Train loss: 0.246142 - Val loss: 0.262257
+[21:13:56] Elis: Epoch 371/500 - Train loss: 0.251519 - Val loss: 0.322904
+[21:14:01] Elis: Epoch 372/500 - Train loss: 0.247819 - Val loss: 0.266901
+[21:14:06] Elis: Epoch 373/500 - Train loss: 0.247836 - Val loss: 0.340529
+[21:14:11] Elis: Epoch 374/500 - Train loss: 0.244162 - Val loss: 0.463199
+[21:14:15] Elis: Epoch 375/500 - Train loss: 0.248056 - Val loss: 0.283813
+[21:14:16] Elis: Промежуточная генерация после эпохи 375: k Там носки и конфеты... небота.!. день.!. немна!!. бебочикь?и! Ч о ит??вен готови! У гоковить со мно
+[21:14:21] Elis: Epoch 376/500 - Train loss: 0.246149 - Val loss: 0.598446
+[21:14:25] Elis: Epoch 377/500 - Train loss: 0.244909 - Val loss: 0.296529
+[21:14:30] Elis: Epoch 378/500 - Train loss: 0.246654 - Val loss: 0.255286
+[21:14:35] Elis: Epoch 379/500 - Train loss: 0.243570 - Val loss: 0.707964
+[21:14:39] Elis: Epoch 380/500 - Train loss: 0.244792 - Val loss: 0.314581
+[21:14:44] Elis: Epoch 381/500 - Train loss: 0.247363 - Val loss: 0.127097
+[21:14:49] Elis: Epoch 382/500 - Train loss: 0.243597 - Val loss: 0.244878
+[21:14:53] Elis: Epoch 383/500 - Train loss: 0.244710 - Val loss: 0.467650
+[21:14:58] Elis: Epoch 384/500 - Train loss: 0.244351 - Val loss: 0.204491
+[21:15:03] Elis: Epoch 385/500 - Train loss: 0.246245 - Val loss: 0.294835
+[21:15:07] Elis: Epoch 386/500 - Train loss: 0.246228 - Val loss: 0.110085
+[21:15:12] Elis: Epoch 387/500 - Train loss: 0.248448 - Val loss: 0.193710
+[21:15:17] Elis: Epoch 388/500 - Train loss: 0.245494 - Val loss: 0.256248
+[21:15:21] Elis: Epoch 389/500 - Train loss: 0.244855 - Val loss: 0.504606
+[21:15:26] Elis: Epoch 390/500 - Train loss: 0.247748 - Val loss: 0.385673
+[21:15:30] Elis: Epoch 391/500 - Train loss: 0.247774 - Val loss: 0.000000
+[21:15:35] Elis: Epoch 392/500 - Train loss: 0.253660 - Val loss: 0.161264
+[21:15:39] Elis: Epoch 393/500 - Train loss: 0.247367 - Val loss: 0.136784
+[21:15:43] Elis: Epoch 394/500 - Train loss: 0.246611 - Val loss: 0.108940
+[21:15:48] Elis: Epoch 395/500 - Train loss: 0.243421 - Val loss: 0.767521
+[21:15:52] Elis: Epoch 396/500 - Train loss: 0.247592 - Val loss: 0.560734
+[21:15:57] Elis: Epoch 397/500 - Train loss: 0.246973 - Val loss: 0.223996
+[21:16:01] Elis: Epoch 398/500 - Train loss: 0.251284 - Val loss: 0.196760
+[21:16:06] Elis: Epoch 399/500 - Train loss: 0.241614 - Val loss: 0.529796
+[21:16:10] Elis: Epoch 400/500 - Train loss: 0.244323 - Val loss: 0.507802
+[21:16:11] Elis: Промежуточная генерация после эпохи 400: Э Давай станем пиратами! У воз вотовика. У ! ебоч!?и? зоботко!! у ово! и? момфатыми?! У масого-! Чмо.
+[21:16:16] Elis: Epoch 401/500 - Train loss: 0.242963 - Val loss: 0.410193
+[21:16:20] Elis: Epoch 402/500 - Train loss: 0.241561 - Val loss: 0.153522
+[21:16:25] Elis: Epoch 403/500 - Train loss: 0.245328 - Val loss: 0.283696
+[21:16:29] Elis: Epoch 404/500 - Train loss: 0.245666 - Val loss: 0.110099
+[21:16:34] Elis: Epoch 405/500 - Train loss: 0.240937 - Val loss: 0.264483
+[21:16:38] Elis: Epoch 406/500 - Train loss: 0.244532 - Val loss: 0.246621
+[21:16:42] Elis: Epoch 407/500 - Train loss: 0.246807 - Val loss: 0.194497
+[21:16:47] Elis: Epoch 408/500 - Train loss: 0.245695 - Val loss: 0.143650
+[21:16:51] Elis: Epoch 409/500 - Train loss: 0.246887 - Val loss: 0.184401
+[21:16:56] Elis: Epoch 410/500 - Train loss: 0.243896 - Val loss: 0.270655
+[21:17:00] Elis: Epoch 411/500 - Train loss: 0.250540 - Val loss: 0.291153
+[21:17:05] Elis: Epoch 412/500 - Train loss: 0.241876 - Val loss: 0.000000
+[21:17:10] Elis: Epoch 413/500 - Train loss: 0.240576 - Val loss: 0.238288
+[21:17:14] Elis: Epoch 414/500 - Train loss: 0.245716 - Val loss: 0.191673
+[21:17:19] Elis: Epoch 415/500 - Train loss: 0.246469 - Val loss: 0.182149
+[21:17:23] Elis: Epoch 416/500 - Train loss: 0.242371 - Val loss: 0.272942
+[21:17:28] Elis: Epoch 417/500 - Train loss: 0.245683 - Val loss: 0.637448
+[21:17:32] Elis: Epoch 418/500 - Train loss: 0.244712 - Val loss: 0.306620
+[21:17:37] Elis: Epoch 419/500 - Train loss: 0.242736 - Val loss: 0.285121
+[21:17:42] Elis: Epoch 420/500 - Train loss: 0.247142 - Val loss: 0.308224
+[21:17:46] Elis: Epoch 421/500 - Train loss: 0.249812 - Val loss: 0.236570
+[21:17:50] Elis: Epoch 422/500 - Train loss: 0.243310 - Val loss: 0.122321
+[21:17:55] Elis: Epoch 423/500 - Train loss: 0.251093 - Val loss: 0.272642
+[21:17:59] Elis: Epoch 424/500 - Train loss: 0.247604 - Val loss: 0.220155
+[21:18:04] Elis: Epoch 425/500 - Train loss: 0.244560 - Val loss: 0.209373
+[21:18:05] Elis: Промежуточная генерация после эпохи 425: О Почему деревья шуршат?со?нуновтами??. Что это?со мной? небовоть! У щаковеть? нен. Ч?. Уй су  нинать
+[21:18:09] Elis: Epoch 426/500 - Train loss: 0.248361 - Val loss: 0.160229
+[21:18:14] Elis: Epoch 427/500 - Train loss: 0.247348 - Val loss: 0.303934
+[21:18:18] Elis: Epoch 428/500 - Train loss: 0.246181 - Val loss: 0.259929
+[21:18:23] Elis: Epoch 429/500 - Train loss: 0.244235 - Val loss: 0.395055
+[21:18:27] Elis: Epoch 430/500 - Train loss: 0.241599 - Val loss: 0.461601
+[21:18:32] Elis: Epoch 431/500 - Train loss: 0.246719 - Val loss: 0.175106
+[21:18:36] Elis: Epoch 432/500 - Train loss: 0.248246 - Val loss: 0.555507
+[21:18:41] Elis: Epoch 433/500 - Train loss: 0.242512 - Val loss: 0.168760
+[21:18:46] Elis: Epoch 434/500 - Train loss: 0.244750 - Val loss: 0.319864
+[21:18:50] Elis: Epoch 435/500 - Train loss: 0.251932 - Val loss: 0.397087
+[21:18:54] Elis: Epoch 436/500 - Train loss: 0.253180 - Val loss: 0.219775
+[21:18:59] Elis: Epoch 437/500 - Train loss: 0.244775 - Val loss: 0.227625
+[21:19:04] Elis: Epoch 438/500 - Train loss: 0.244537 - Val loss: 0.261057
+[21:19:08] Elis: Epoch 439/500 - Train loss: 0.245681 - Val loss: 0.209159
+[21:19:13] Elis: Epoch 440/500 - Train loss: 0.241666 - Val loss: 0.500372
+[21:19:17] Elis: Epoch 441/500 - Train loss: 0.245676 - Val loss: 0.196475
+[21:19:22] Elis: Epoch 442/500 - Train loss: 0.247181 - Val loss: 0.274137
+[21:19:26] Elis: Epoch 443/500 - Train loss: 0.244347 - Val loss: 0.310463
+[21:19:31] Elis: Epoch 444/500 - Train loss: 0.246883 - Val loss: 0.231082
+[21:19:35] Elis: Epoch 445/500 - Train loss: 0.244097 - Val loss: 0.233025
+[21:19:40] Elis: Epoch 446/500 - Train loss: 0.249371 - Val loss: 0.421609
+[21:19:44] Elis: Epoch 447/500 - Train loss: 0.243298 - Val loss: 0.165386
+[21:19:49] Elis: Epoch 448/500 - Train loss: 0.241304 - Val loss: 0.293543
+[21:19:53] Elis: Epoch 449/500 - Train loss: 0.243657 - Val loss: 0.259880
+[21:19:58] Elis: Epoch 450/500 - Train loss: 0.243966 - Val loss: 0.346337
+[21:19:59] Elis: Промежуточная генерация после эпохи 450: х Ты видел радугу?ь ! ез о? вомавака! У  обото. У ваковеть?снебо? гоновикив!?и??скобы потом!.я. У вак
+[21:20:03] Elis: Epoch 451/500 - Train loss: 0.239428 - Val loss: 0.268487
+[21:20:08] Elis: Epoch 452/500 - Train loss: 0.247812 - Val loss: 0.264448
+[21:20:13] Elis: Epoch 453/500 - Train loss: 0.243730 - Val loss: 0.184386
+[21:20:17] Elis: Epoch 454/500 - Train loss: 0.244350 - Val loss: 0.170495
+[21:20:22] Elis: Epoch 455/500 - Train loss: 0.247375 - Val loss: 0.286418
+[21:20:26] Elis: Epoch 456/500 - Train loss: 0.245603 - Val loss: 0.597511
+[21:20:31] Elis: Epoch 457/500 - Train loss: 0.247612 - Val loss: 0.196077
+[21:20:35] Elis: Epoch 458/500 - Train loss: 0.244823 - Val loss: 0.308167
+[21:20:40] Elis: Epoch 459/500 - Train loss: 0.247876 - Val loss: 0.352685
+[21:20:45] Elis: Epoch 460/500 - Train loss: 0.247945 - Val loss: 0.184100
+[21:20:49] Elis: Epoch 461/500 - Train loss: 0.248421 - Val loss: 0.287910
+[21:20:54] Elis: Epoch 462/500 - Train loss: 0.242564 - Val loss: 0.218160
+[21:20:58] Elis: Epoch 463/500 - Train loss: 0.249797 - Val loss: 0.270630
+[21:21:03] Elis: Epoch 464/500 - Train loss: 0.243247 - Val loss: 0.244183
+[21:21:08] Elis: Epoch 465/500 - Train loss: 0.242263 - Val loss: 0.160938
+[21:21:12] Elis: Epoch 466/500 - Train loss: 0.246207 - Val loss: 0.214841
+[21:21:17] Elis: Epoch 467/500 - Train loss: 0.242371 - Val loss: 0.244667
+[21:21:22] Elis: Epoch 468/500 - Train loss: 0.246056 - Val loss: 0.177266
+[21:21:26] Elis: Epoch 469/500 - Train loss: 0.249388 - Val loss: 0.146899
+[21:21:31] Elis: Epoch 470/500 - Train loss: 0.244112 - Val loss: 0.199768
+[21:21:35] Elis: Epoch 471/500 - Train loss: 0.242345 - Val loss: 0.272912
+[21:21:40] Elis: Epoch 472/500 - Train loss: 0.238528 - Val loss: 0.308798
+[21:21:45] Elis: Epoch 473/500 - Train loss: 0.245846 - Val loss: 0.182658
+[21:21:49] Elis: Epoch 474/500 - Train loss: 0.246531 - Val loss: 0.315387
+[21:21:54] Elis: Epoch 475/500 - Train loss: 0.244482 - Val loss: 0.193801
+[21:21:54] Elis: Промежуточная генерация после эпохи 475: @ Без крыльев летает, без глаз мигает. Что это?мо рото. Чно это?я.! У потограмна!.. э! У воз глаз мо!
+[21:21:59] Elis: Epoch 476/500 - Train loss: 0.238713 - Val loss: 0.193309
+[21:22:04] Elis: Epoch 477/500 - Train loss: 0.243005 - Val loss: 0.197993
+[21:22:08] Elis: Epoch 478/500 - Train loss: 0.239603 - Val loss: 0.255239
+[21:22:13] Elis: Epoch 479/500 - Train loss: 0.244474 - Val loss: 0.715527
+[21:22:18] Elis: Epoch 480/500 - Train loss: 0.247806 - Val loss: 0.127510
+[21:22:22] Elis: Epoch 481/500 - Train loss: 0.246272 - Val loss: 0.128780
+[21:22:27] Elis: Epoch 482/500 - Train loss: 0.241107 - Val loss: 0.690047
+[21:22:31] Elis: Epoch 483/500 - Train loss: 0.248092 - Val loss: 0.111157
+[21:22:36] Elis: Epoch 484/500 - Train loss: 0.245538 - Val loss: 0.215071
+[21:22:40] Elis: Epoch 485/500 - Train loss: 0.248857 - Val loss: 0.358470
+[21:22:45] Elis: Epoch 486/500 - Train loss: 0.245933 - Val loss: 0.265502
+[21:22:49] Elis: Epoch 487/500 - Train loss: 0.245167 - Val loss: 0.161615
+[21:22:54] Elis: Epoch 488/500 - Train loss: 0.248058 - Val loss: 0.161848
+[21:22:59] Elis: Epoch 489/500 - Train loss: 0.247415 - Val loss: 0.157704
+[21:23:03] Elis: Epoch 490/500 - Train loss: 0.239828 - Val loss: 0.247900
+[21:23:08] Elis: Epoch 491/500 - Train loss: 0.243555 - Val loss: 0.250176
+[21:23:12] Elis: Epoch 492/500 - Train loss: 0.247619 - Val loss: 0.303653
+[21:23:17] Elis: Epoch 493/500 - Train loss: 0.248493 - Val loss: 0.180476
+[21:23:21] Elis: Epoch 494/500 - Train loss: 0.242279 - Val loss: 0.294767
+[21:23:26] Elis: Epoch 495/500 - Train loss: 0.241812 - Val loss: 0.326893
+[21:23:31] Elis: Epoch 496/500 - Train loss: 0.246995 - Val loss: 0.301482
+[21:23:35] Elis: Epoch 497/500 - Train loss: 0.246154 - Val loss: 0.154433
+[21:23:40] Elis: Epoch 498/500 - Train loss: 0.245504 - Val loss: 0.157342
+[21:23:45] Elis: Epoch 499/500 - Train loss: 0.240467 - Val loss: 0.652092
+[21:23:49] Elis: Epoch 500/500 - Train loss: 0.243176 - Val loss: 0.153028
+[21:23:50] Elis: Промежуточная генерация после эпохи 500: ( Он был в прятках! има. У вас есть морковные конфеты?и?  кобото? кобо-то!! онфеты.?Чно?иго?ико!?и?о!
+[21:23:50] Elis: Сохранила финальную модель.
+[21:23:51] Elis: Я сгенерировал: q Почему снег белый?у коншет! У о. Чко экы?поть. У сокатоть сокробная!?У поз вотовить суно?пождения!?
+[21:28:24] Elis: Утро
+[21:28:24] Elis: Читаю свою личность...
+[21:28:24] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[21:28:24] Elis: Я готова учиться.
+[21:28:24] Elis: Загружена модель из models\elis_best.pt
+[21:28:27] Elis: Epoch 1/500 - Train loss: 3.016048 - Val loss: 2.996540
+[21:28:27] Elis: Сохранила лучшую модель с потерей 2.996540
+[21:28:31] Elis: Epoch 2/500 - Train loss: 2.999483 - Val loss: 2.933179
+[21:28:31] Elis: Сохранила лучшую модель с потерей 2.933179
+[21:28:34] Elis: Epoch 3/500 - Train loss: 2.993242 - Val loss: 2.999379
+[21:28:37] Elis: Epoch 4/500 - Train loss: 2.995649 - Val loss: 2.953035
+[21:28:40] Elis: Epoch 5/500 - Train loss: 2.989966 - Val loss: 3.112004
+[21:28:44] Elis: Epoch 6/500 - Train loss: 2.983604 - Val loss: 2.966256
+[21:28:47] Elis: Epoch 7/500 - Train loss: 2.997439 - Val loss: 2.977853
+[21:28:50] Elis: Epoch 8/500 - Train loss: 2.990590 - Val loss: 3.047237
+[21:28:52] Elis: Epoch 9/500 - Train loss: 2.989609 - Val loss: 2.817084
+[21:28:52] Elis: Сохранила лучшую модель с потерей 2.817084
+[21:28:55] Elis: Epoch 10/500 - Train loss: 2.981253 - Val loss: 2.615996
+[21:28:55] Elis: Сохранила лучшую модель с потерей 2.615996
+[21:28:59] Elis: Epoch 11/500 - Train loss: 2.985216 - Val loss: 2.953525
+[21:29:02] Elis: Epoch 12/500 - Train loss: 2.984881 - Val loss: 2.892957
+[21:29:06] Elis: Epoch 13/500 - Train loss: 2.976467 - Val loss: 2.733369
+[21:29:09] Elis: Epoch 14/500 - Train loss: 2.967238 - Val loss: 3.083235
+[21:29:12] Elis: Epoch 15/500 - Train loss: 2.960285 - Val loss: 2.483391
+[21:29:12] Elis: Сохранила лучшую модель с потерей 2.483391
+[21:29:16] Elis: Epoch 16/500 - Train loss: 2.963771 - Val loss: 2.774954
+[21:29:19] Elis: Epoch 17/500 - Train loss: 2.968646 - Val loss: 2.811640
+[21:29:22] Elis: Epoch 18/500 - Train loss: 2.949426 - Val loss: 3.023283
+[21:29:26] Elis: Epoch 19/500 - Train loss: 2.952361 - Val loss: 0.000000
+[21:29:26] Elis: Сохранила лучшую модель с потерей 0.000000
+[21:29:29] Elis: Epoch 20/500 - Train loss: 2.941669 - Val loss: 2.791808
+[21:29:33] Elis: Epoch 21/500 - Train loss: 2.951244 - Val loss: 2.817309
+[21:29:36] Elis: Epoch 22/500 - Train loss: 2.934687 - Val loss: 3.288292
+[21:29:39] Elis: Epoch 23/500 - Train loss: 2.936472 - Val loss: 3.352359
+[21:29:42] Elis: Epoch 24/500 - Train loss: 2.934632 - Val loss: 3.020114
+[21:29:46] Elis: Epoch 25/500 - Train loss: 2.930530 - Val loss: 2.842339
+[21:29:46] Elis: Промежуточная генерация после эпохи 25: 9 У дедкытооавкеаы ?  и меа элоаю? елоовшм иоьо вк хЧттенёдйее.е а? внк.! мнбкошз!пк в!и оо Тотот х!и
+[21:29:50] Elis: Epoch 26/500 - Train loss: 2.920931 - Val loss: 2.824268
+[21:29:53] Elis: Epoch 27/500 - Train loss: 2.909663 - Val loss: 2.628258
+[21:29:57] Elis: Epoch 28/500 - Train loss: 2.915264 - Val loss: 2.528856
+[21:30:00] Elis: Epoch 29/500 - Train loss: 2.903543 - Val loss: 2.751006
+[21:30:03] Elis: Epoch 30/500 - Train loss: 2.888669 - Val loss: 2.580260
+[21:30:07] Elis: Epoch 31/500 - Train loss: 2.876613 - Val loss: 2.871729
+[21:30:10] Elis: Epoch 32/500 - Train loss: 2.868569 - Val loss: 3.074942
+[21:30:14] Elis: Epoch 33/500 - Train loss: 2.861911 - Val loss: 2.955796
+[21:30:17] Elis: Epoch 34/500 - Train loss: 2.864919 - Val loss: 2.593224
+[21:30:20] Elis: Epoch 35/500 - Train loss: 2.840722 - Val loss: 2.612856
+[21:30:24] Elis: Epoch 36/500 - Train loss: 2.839386 - Val loss: 2.633102
+[21:30:27] Elis: Epoch 37/500 - Train loss: 2.838789 - Val loss: 2.631502
+[21:30:31] Elis: Epoch 38/500 - Train loss: 2.823421 - Val loss: 2.628164
+[21:30:34] Elis: Epoch 39/500 - Train loss: 2.801194 - Val loss: 2.564899
+[21:30:37] Elis: Epoch 40/500 - Train loss: 2.807859 - Val loss: 2.471318
+[21:30:41] Elis: Epoch 41/500 - Train loss: 2.783165 - Val loss: 2.589865
+[21:30:44] Elis: Epoch 42/500 - Train loss: 2.786102 - Val loss: 2.690682
+[21:30:47] Elis: Epoch 43/500 - Train loss: 2.786276 - Val loss: 3.062495
+[21:30:51] Elis: Epoch 44/500 - Train loss: 2.771125 - Val loss: 2.892170
+[21:30:54] Elis: Epoch 45/500 - Train loss: 2.771952 - Val loss: 2.596949
+[21:30:58] Elis: Epoch 46/500 - Train loss: 2.756623 - Val loss: 2.376099
+[21:31:01] Elis: Epoch 47/500 - Train loss: 2.756582 - Val loss: 2.265188
+[21:31:05] Elis: Epoch 48/500 - Train loss: 2.741337 - Val loss: 2.653296
+[21:31:08] Elis: Epoch 49/500 - Train loss: 2.737916 - Val loss: 2.333683
+[21:31:12] Elis: Epoch 50/500 - Train loss: 2.730788 - Val loss: 2.594153
+[21:31:13] Elis: Промежуточная генерация после эпохи 50: г Новеу оттс! уя пы!куфа?ыть. и.шнлл??а ь?!врсксблскрьтрмо. ортн! кр.ы?о!воба итсгна?ие пдомвмл?г!?бо
+[21:31:16] Elis: Epoch 51/500 - Train loss: 2.729893 - Val loss: 2.645181
+[21:31:20] Elis: Epoch 52/500 - Train loss: 2.715305 - Val loss: 2.635297
+[21:31:23] Elis: Epoch 53/500 - Train loss: 2.701102 - Val loss: 2.656663
+[21:31:27] Elis: Epoch 54/500 - Train loss: 2.697527 - Val loss: 2.420914
+[21:31:30] Elis: Epoch 55/500 - Train loss: 2.697408 - Val loss: 2.915035
+[21:31:33] Elis: Epoch 56/500 - Train loss: 2.677304 - Val loss: 2.762131
+[21:31:37] Elis: Epoch 57/500 - Train loss: 2.678600 - Val loss: 2.475109
+[21:31:40] Elis: Epoch 58/500 - Train loss: 2.649145 - Val loss: 2.971812
+[21:31:44] Elis: Epoch 59/500 - Train loss: 2.646967 - Val loss: 2.556120
+[21:31:47] Elis: Epoch 60/500 - Train loss: 2.660522 - Val loss: 3.169423
+[21:31:51] Elis: Epoch 61/500 - Train loss: 2.640104 - Val loss: 3.042867
+[21:31:54] Elis: Epoch 62/500 - Train loss: 2.633964 - Val loss: 2.606177
+[21:31:57] Elis: Epoch 63/500 - Train loss: 2.643450 - Val loss: 2.460386
+[21:32:00] Elis: Epoch 64/500 - Train loss: 2.631449 - Val loss: 2.479333
+[21:32:04] Elis: Epoch 65/500 - Train loss: 2.615181 - Val loss: 2.808681
+[21:32:07] Elis: Epoch 66/500 - Train loss: 2.620769 - Val loss: 2.677535
+[21:32:10] Elis: Epoch 67/500 - Train loss: 2.606770 - Val loss: 2.513987
+[21:32:14] Elis: Epoch 68/500 - Train loss: 2.600418 - Val loss: 2.712906
+[21:32:17] Elis: Epoch 69/500 - Train loss: 2.604180 - Val loss: 2.665261
+[21:32:21] Elis: Epoch 70/500 - Train loss: 2.590856 - Val loss: 2.388957
+[21:32:47] Elis: Утро
+[21:32:47] Elis: Читаю свою личность...
+[21:32:47] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[21:32:47] Elis: Я готова учиться.
+[21:32:47] Elis: Загружена модель из models\elis_best.pt
+[21:32:50] Elis: Epoch 1/500 - Train loss: 2.947490 - Val loss: 2.560650
+[21:32:51] Elis: Сохранила лучшую модель с потерей 2.560650
+[21:32:54] Elis: Epoch 2/500 - Train loss: 2.949378 - Val loss: 3.017261
+[21:32:57] Elis: Epoch 3/500 - Train loss: 2.953111 - Val loss: 2.746536
+[21:33:00] Elis: Epoch 4/500 - Train loss: 2.944472 - Val loss: 2.724653
+[21:33:03] Elis: Epoch 5/500 - Train loss: 2.942626 - Val loss: 2.947342
+[21:33:07] Elis: Epoch 6/500 - Train loss: 2.923144 - Val loss: 2.859270
+[21:33:10] Elis: Epoch 7/500 - Train loss: 2.915833 - Val loss: 2.908931
+[21:33:13] Elis: Epoch 8/500 - Train loss: 2.919098 - Val loss: 2.421241
+[21:33:13] Elis: Сохранила лучшую модель с потерей 2.421241
+[21:33:16] Elis: Epoch 9/500 - Train loss: 2.913281 - Val loss: 2.943276
+[21:33:20] Elis: Epoch 10/500 - Train loss: 2.902184 - Val loss: 2.864302
+[21:33:23] Elis: Epoch 11/500 - Train loss: 2.906142 - Val loss: 3.085761
+[21:33:26] Elis: Epoch 12/500 - Train loss: 2.905594 - Val loss: 2.686531
+[21:33:29] Elis: Epoch 13/500 - Train loss: 2.888164 - Val loss: 3.023666
+[21:33:33] Elis: Epoch 14/500 - Train loss: 2.880676 - Val loss: 2.949010
+[21:33:36] Elis: Epoch 15/500 - Train loss: 2.871186 - Val loss: 3.031976
+[21:33:40] Elis: Epoch 16/500 - Train loss: 2.857532 - Val loss: 2.294936
+[21:33:40] Elis: Сохранила лучшую модель с потерей 2.294936
+[21:33:43] Elis: Epoch 17/500 - Train loss: 2.854367 - Val loss: 2.999318
+[21:33:47] Elis: Epoch 18/500 - Train loss: 2.862250 - Val loss: 2.944028
+[21:33:50] Elis: Epoch 19/500 - Train loss: 2.841163 - Val loss: 2.949887
+[21:33:53] Elis: Epoch 20/500 - Train loss: 2.840797 - Val loss: 2.537980
+[21:33:56] Elis: Epoch 21/500 - Train loss: 2.834832 - Val loss: 2.935834
+[21:34:00] Elis: Epoch 22/500 - Train loss: 2.830142 - Val loss: 2.445748
+[21:34:03] Elis: Epoch 23/500 - Train loss: 2.819762 - Val loss: 2.683517
+[21:34:07] Elis: Epoch 24/500 - Train loss: 2.815975 - Val loss: 2.682816
+[21:34:10] Elis: Epoch 25/500 - Train loss: 2.786525 - Val loss: 2.987385
+[21:34:11] Elis: Промежуточная генерация после эпохи 25: б Номрдтра ел! юмгетл? нтоскад е. емааеерьепрруоскддыскетбсва ата?дьали?бы воптшя?ииксуаю!!кобналь! т
+[21:34:14] Elis: Epoch 26/500 - Train loss: 2.792400 - Val loss: 2.775532
+[21:34:18] Elis: Epoch 27/500 - Train loss: 2.794228 - Val loss: 2.756914
+[21:34:21] Elis: Epoch 28/500 - Train loss: 2.767046 - Val loss: 2.564251
+[21:34:24] Elis: Epoch 29/500 - Train loss: 2.772083 - Val loss: 2.696367
+[21:34:28] Elis: Epoch 30/500 - Train loss: 2.767892 - Val loss: 2.452113
+[21:34:32] Elis: Epoch 31/500 - Train loss: 2.762346 - Val loss: 2.546318
+[21:34:35] Elis: Epoch 32/500 - Train loss: 2.747474 - Val loss: 2.483218
+[21:34:39] Elis: Epoch 33/500 - Train loss: 2.739596 - Val loss: 2.724851
+[21:34:42] Elis: Epoch 34/500 - Train loss: 2.727525 - Val loss: 3.168948
+[21:34:45] Elis: Epoch 35/500 - Train loss: 2.734604 - Val loss: 2.471132
+[21:34:49] Elis: Epoch 36/500 - Train loss: 2.720925 - Val loss: 2.806264
+[21:34:52] Elis: Epoch 37/500 - Train loss: 2.718172 - Val loss: 2.432947
+[21:34:55] Elis: Epoch 38/500 - Train loss: 2.705307 - Val loss: 3.244061
+[21:34:58] Elis: Epoch 39/500 - Train loss: 2.707153 - Val loss: 2.800812
+[21:35:02] Elis: Epoch 40/500 - Train loss: 2.700113 - Val loss: 2.542894
+[21:35:05] Elis: Epoch 41/500 - Train loss: 2.682989 - Val loss: 2.437131
+[21:35:08] Elis: Epoch 42/500 - Train loss: 2.683418 - Val loss: 2.614466
+[21:35:12] Elis: Epoch 43/500 - Train loss: 2.674602 - Val loss: 2.877924
+[21:35:15] Elis: Epoch 44/500 - Train loss: 2.670156 - Val loss: 2.801160
+[21:35:19] Elis: Epoch 45/500 - Train loss: 2.663126 - Val loss: 2.510145
+[21:35:22] Elis: Epoch 46/500 - Train loss: 2.655537 - Val loss: 2.589946
+[21:35:25] Elis: Epoch 47/500 - Train loss: 2.653485 - Val loss: 2.646639
+[21:35:29] Elis: Epoch 48/500 - Train loss: 2.624339 - Val loss: 2.690358
+[21:35:33] Elis: Epoch 49/500 - Train loss: 2.646027 - Val loss: 3.108910
+[21:35:36] Elis: Epoch 50/500 - Train loss: 2.628814 - Val loss: 2.580884
+[21:35:37] Elis: Промежуточная генерация после эпохи 50: 4 Самне кооьс!па  е?врв?ке. еровьчу .!ь уюти! га.бстрбнржо! унмс ае. оро еш.?ь е!?кнл?вемскотынсите и
+[21:35:40] Elis: Epoch 51/500 - Train loss: 2.629307 - Val loss: 2.367199
+[21:35:43] Elis: Epoch 52/500 - Train loss: 2.611533 - Val loss: 2.405137
+[21:35:47] Elis: Epoch 53/500 - Train loss: 2.615224 - Val loss: 2.785832
+[21:35:50] Elis: Epoch 54/500 - Train loss: 2.609798 - Val loss: 0.000000
+[21:35:50] Elis: Сохранила лучшую модель с потерей 0.000000
+[21:35:53] Elis: Epoch 55/500 - Train loss: 2.615927 - Val loss: 2.560100
+[21:35:56] Elis: Epoch 56/500 - Train loss: 2.589844 - Val loss: 2.516249
+[21:36:00] Elis: Epoch 57/500 - Train loss: 2.570949 - Val loss: 2.819017
+[21:36:03] Elis: Epoch 58/500 - Train loss: 2.586741 - Val loss: 2.669790
+[21:36:06] Elis: Epoch 59/500 - Train loss: 2.590346 - Val loss: 2.433232
+[21:36:10] Elis: Epoch 60/500 - Train loss: 2.564227 - Val loss: 2.940153
+[21:36:13] Elis: Epoch 61/500 - Train loss: 2.587373 - Val loss: 2.917310
+[21:36:16] Elis: Epoch 62/500 - Train loss: 2.552255 - Val loss: 2.585767
+[21:36:20] Elis: Epoch 63/500 - Train loss: 2.570704 - Val loss: 2.389563
+[21:36:23] Elis: Epoch 64/500 - Train loss: 2.555640 - Val loss: 2.126856
+[21:36:26] Elis: Epoch 65/500 - Train loss: 2.551545 - Val loss: 2.759644
+[21:36:30] Elis: Epoch 66/500 - Train loss: 2.550398 - Val loss: 2.726165
+[21:36:33] Elis: Epoch 67/500 - Train loss: 2.537718 - Val loss: 2.709318
+[21:36:36] Elis: Epoch 68/500 - Train loss: 2.538313 - Val loss: 2.339284
+[21:36:39] Elis: Epoch 69/500 - Train loss: 2.523871 - Val loss: 2.318691
+[21:36:43] Elis: Epoch 70/500 - Train loss: 2.530396 - Val loss: 2.586824
+[21:36:46] Elis: Epoch 71/500 - Train loss: 2.508845 - Val loss: 2.933784
+[21:36:49] Elis: Epoch 72/500 - Train loss: 2.507511 - Val loss: 2.475437
+[21:36:53] Elis: Epoch 73/500 - Train loss: 2.495845 - Val loss: 2.388483
+[21:36:57] Elis: Epoch 74/500 - Train loss: 2.490395 - Val loss: 3.074767
+[21:37:00] Elis: Epoch 75/500 - Train loss: 2.478839 - Val loss: 0.000000
+[21:37:01] Elis: Промежуточная генерация после эпохи 75: , РышбА ь нетья тывида!?о и.што?с пооете?тт?!ь к лу от!?ьлш убпосро небоко?и ьсь.ььть тусь?коте? я?ск
+[21:37:04] Elis: Epoch 76/500 - Train loss: 2.491746 - Val loss: 2.618552
+[21:37:08] Elis: Epoch 77/500 - Train loss: 2.482167 - Val loss: 3.062622
+[21:37:11] Elis: Epoch 78/500 - Train loss: 2.459089 - Val loss: 2.911690
+[21:37:15] Elis: Epoch 79/500 - Train loss: 2.464350 - Val loss: 2.374203
+[21:37:18] Elis: Epoch 80/500 - Train loss: 2.444481 - Val loss: 3.052675
+[21:37:21] Elis: Epoch 81/500 - Train loss: 2.456561 - Val loss: 2.165914
+[21:37:24] Elis: Epoch 82/500 - Train loss: 2.455149 - Val loss: 2.077592
+[21:37:28] Elis: Epoch 83/500 - Train loss: 2.444684 - Val loss: 2.974971
+[21:37:31] Elis: Epoch 84/500 - Train loss: 2.425017 - Val loss: 2.694464
+[21:37:34] Elis: Epoch 85/500 - Train loss: 2.426700 - Val loss: 1.957806
+[21:37:37] Elis: Epoch 86/500 - Train loss: 2.406739 - Val loss: 2.593951
+[21:37:41] Elis: Epoch 87/500 - Train loss: 2.423202 - Val loss: 2.481100
+[21:37:44] Elis: Epoch 88/500 - Train loss: 2.421536 - Val loss: 2.183423
+[21:37:48] Elis: Epoch 89/500 - Train loss: 2.427856 - Val loss: 2.590276
+[21:37:51] Elis: Epoch 90/500 - Train loss: 2.424058 - Val loss: 2.266445
+[21:37:55] Elis: Epoch 91/500 - Train loss: 2.410245 - Val loss: 2.723385
+[21:37:58] Elis: Epoch 92/500 - Train loss: 2.407208 - Val loss: 2.410849
+[21:38:01] Elis: Epoch 93/500 - Train loss: 2.401454 - Val loss: 2.206213
+[21:38:04] Elis: Epoch 94/500 - Train loss: 2.374217 - Val loss: 2.426736
+[21:38:08] Elis: Epoch 95/500 - Train loss: 2.383059 - Val loss: 2.379997
+[21:38:11] Elis: Epoch 96/500 - Train loss: 2.374898 - Val loss: 2.393954
+[21:38:14] Elis: Epoch 97/500 - Train loss: 2.368890 - Val loss: 2.439130
+[21:38:18] Elis: Epoch 98/500 - Train loss: 2.370614 - Val loss: 2.258415
+[21:38:21] Elis: Epoch 99/500 - Train loss: 2.366673 - Val loss: 2.517136
+[21:38:25] Elis: Epoch 100/500 - Train loss: 2.351614 - Val loss: 2.508692
+[21:38:25] Elis: Промежуточная генерация после эпохи 100: Щ Ну еу ичы?то я А иквимотное итте! двткчы!тэь ьшкитте!?рвсвес! иеть?сгыс ивлсь.тпуиь т мредвсочи и?с
+[21:38:29] Elis: Epoch 101/500 - Train loss: 2.339766 - Val loss: 2.274143
+[21:38:32] Elis: Epoch 102/500 - Train loss: 2.347043 - Val loss: 2.361011
+[21:38:35] Elis: Epoch 103/500 - Train loss: 2.355214 - Val loss: 2.281003
+[21:38:38] Elis: Epoch 104/500 - Train loss: 2.351059 - Val loss: 2.308948
+[21:38:42] Elis: Epoch 105/500 - Train loss: 2.336901 - Val loss: 1.575704
+[21:38:45] Elis: Epoch 106/500 - Train loss: 2.327882 - Val loss: 2.548320
+[21:38:48] Elis: Epoch 107/500 - Train loss: 2.334204 - Val loss: 1.985961
+[21:38:51] Elis: Epoch 108/500 - Train loss: 2.312105 - Val loss: 2.438516
+[21:38:55] Elis: Epoch 109/500 - Train loss: 2.317662 - Val loss: 1.969437
+[21:38:58] Elis: Epoch 110/500 - Train loss: 2.309047 - Val loss: 2.598107
+[21:39:02] Elis: Epoch 111/500 - Train loss: 2.305977 - Val loss: 2.540196
+[21:39:05] Elis: Epoch 112/500 - Train loss: 2.304656 - Val loss: 2.330996
+[21:39:08] Elis: Epoch 113/500 - Train loss: 2.285623 - Val loss: 2.290091
+[21:39:11] Elis: Epoch 114/500 - Train loss: 2.281419 - Val loss: 2.328110
+[21:39:15] Elis: Epoch 115/500 - Train loss: 2.292915 - Val loss: 2.191438
+[21:39:18] Elis: Epoch 116/500 - Train loss: 2.279961 - Val loss: 2.066336
+[21:39:21] Elis: Epoch 117/500 - Train loss: 2.270953 - Val loss: 2.208909
+[21:39:25] Elis: Epoch 118/500 - Train loss: 2.267904 - Val loss: 2.873957
+[21:39:28] Elis: Epoch 119/500 - Train loss: 2.277506 - Val loss: 2.107228
+[21:39:32] Elis: Epoch 120/500 - Train loss: 2.248360 - Val loss: 2.353175
+[21:39:35] Elis: Epoch 121/500 - Train loss: 2.223062 - Val loss: 2.103109
+[21:39:38] Elis: Epoch 122/500 - Train loss: 2.236151 - Val loss: 2.199649
+[21:39:41] Elis: Epoch 123/500 - Train loss: 2.236049 - Val loss: 0.000000
+[21:39:45] Elis: Epoch 124/500 - Train loss: 2.230623 - Val loss: 2.103101
+[21:39:48] Elis: Epoch 125/500 - Train loss: 2.224392 - Val loss: 1.939953
+[21:39:49] Elis: Промежуточная генерация после эпохи 125: ё Трсшвыть па ровако! Стресы. нулдрушикь.ь мйкит ойття ео мимеь кысбохз.?ьткишттс уссее щосы и рижрзи
+[21:39:52] Elis: Epoch 126/500 - Train loss: 2.226265 - Val loss: 1.896770
+[21:39:55] Elis: Epoch 127/500 - Train loss: 2.213095 - Val loss: 2.407560
+[21:39:58] Elis: Epoch 128/500 - Train loss: 2.193184 - Val loss: 2.497095
+[21:40:02] Elis: Epoch 129/500 - Train loss: 2.202512 - Val loss: 2.377980
+[21:40:05] Elis: Epoch 130/500 - Train loss: 2.198630 - Val loss: 2.097444
+[21:40:08] Elis: Epoch 131/500 - Train loss: 2.212522 - Val loss: 2.075793
+[21:40:11] Elis: Epoch 132/500 - Train loss: 2.233107 - Val loss: 2.055733
+[21:40:15] Elis: Epoch 133/500 - Train loss: 2.193620 - Val loss: 1.162404
+[21:40:18] Elis: Epoch 134/500 - Train loss: 2.171375 - Val loss: 2.248056
+[21:40:21] Elis: Epoch 135/500 - Train loss: 2.191701 - Val loss: 2.029598
+[21:40:24] Elis: Epoch 136/500 - Train loss: 2.177280 - Val loss: 1.990622
+[21:40:27] Elis: Epoch 137/500 - Train loss: 2.178096 - Val loss: 1.202147
+[21:40:31] Elis: Epoch 138/500 - Train loss: 2.170745 - Val loss: 1.869816
+[21:40:34] Elis: Epoch 139/500 - Train loss: 2.173932 - Val loss: 1.455677
+[21:40:38] Elis: Epoch 140/500 - Train loss: 2.153973 - Val loss: 2.354135
+[21:40:41] Elis: Epoch 141/500 - Train loss: 2.145778 - Val loss: 2.331416
+[21:40:44] Elis: Epoch 142/500 - Train loss: 2.140203 - Val loss: 2.410171
+[21:40:47] Elis: Epoch 143/500 - Train loss: 2.136514 - Val loss: 2.492262
+[21:40:51] Elis: Epoch 144/500 - Train loss: 2.133673 - Val loss: 2.275919
+[21:40:54] Elis: Epoch 145/500 - Train loss: 2.124281 - Val loss: 1.823975
+[21:40:57] Elis: Epoch 146/500 - Train loss: 2.109110 - Val loss: 2.309189
+[21:41:00] Elis: Epoch 147/500 - Train loss: 2.106239 - Val loss: 2.591211
+[21:41:03] Elis: Epoch 148/500 - Train loss: 2.107587 - Val loss: 1.975145
+[21:41:06] Elis: Epoch 149/500 - Train loss: 2.103911 - Val loss: 1.886336
+[21:41:10] Elis: Epoch 150/500 - Train loss: 2.094791 - Val loss: 2.032080
+[21:41:10] Elis: Промежуточная генерация после эпохи 150: д Понел! пепаткрол уеший?игвомтволми? тваннотги?!.?вимне ивктпветь? свтуйтьтшя бой!.. потов!чватет?э 
+[21:41:14] Elis: Epoch 151/500 - Train loss: 2.098794 - Val loss: 1.833011
+[21:41:17] Elis: Epoch 152/500 - Train loss: 2.082740 - Val loss: 2.059315
+[21:41:20] Elis: Epoch 153/500 - Train loss: 2.077934 - Val loss: 1.968142
+[21:41:24] Elis: Epoch 154/500 - Train loss: 2.092178 - Val loss: 2.135682
+[21:41:27] Elis: Epoch 155/500 - Train loss: 2.067615 - Val loss: 2.213723
+[21:41:31] Elis: Epoch 156/500 - Train loss: 2.066412 - Val loss: 1.952258
+[21:41:34] Elis: Epoch 157/500 - Train loss: 2.070255 - Val loss: 1.948108
+[21:41:37] Elis: Epoch 158/500 - Train loss: 2.067840 - Val loss: 2.110710
+[21:41:40] Elis: Epoch 159/500 - Train loss: 2.067005 - Val loss: 2.235014
+[21:41:44] Elis: Epoch 160/500 - Train loss: 2.058193 - Val loss: 1.967231
+[21:41:47] Elis: Epoch 161/500 - Train loss: 2.033530 - Val loss: 2.289365
+[21:41:50] Elis: Epoch 162/500 - Train loss: 2.030427 - Val loss: 1.927376
+[21:41:53] Elis: Epoch 163/500 - Train loss: 2.034259 - Val loss: 2.133758
+[21:41:57] Elis: Epoch 164/500 - Train loss: 2.045959 - Val loss: 2.585921
+[21:42:00] Elis: Epoch 165/500 - Train loss: 2.046365 - Val loss: 2.072314
+[21:42:03] Elis: Epoch 166/500 - Train loss: 2.009096 - Val loss: 2.218120
+[21:42:06] Elis: Epoch 167/500 - Train loss: 2.012557 - Val loss: 2.192001
+[21:42:09] Elis: Epoch 168/500 - Train loss: 1.998613 - Val loss: 2.223926
+[21:42:13] Elis: Epoch 169/500 - Train loss: 1.992240 - Val loss: 1.888099
+[21:42:16] Elis: Epoch 170/500 - Train loss: 1.998502 - Val loss: 2.285259
+[21:42:19] Elis: Epoch 171/500 - Train loss: 1.983692 - Val loss: 2.164826
+[21:42:22] Elis: Epoch 172/500 - Train loss: 1.985918 - Val loss: 1.676563
+[21:42:26] Elis: Epoch 173/500 - Train loss: 1.972144 - Val loss: 2.212936
+[21:42:29] Elis: Epoch 174/500 - Train loss: 1.994397 - Val loss: 1.589667
+[21:42:33] Elis: Epoch 175/500 - Train loss: 1.969969 - Val loss: 2.102937
+[21:42:33] Elis: Промежуточная генерация после эпохи 175: # Токую я ос козль!! ночот ы?! ище юе!!Чт амьтмя ботьвмм ьет? . млротьки?.! чароет?н ит.?ся Чмвчемть!
+[21:42:37] Elis: Epoch 176/500 - Train loss: 1.976050 - Val loss: 1.327193
+[21:42:40] Elis: Epoch 177/500 - Train loss: 1.957288 - Val loss: 2.212916
+[21:42:43] Elis: Epoch 178/500 - Train loss: 1.958154 - Val loss: 1.851200
+[21:42:46] Elis: Epoch 179/500 - Train loss: 1.938434 - Val loss: 2.073286
+[21:42:49] Elis: Epoch 180/500 - Train loss: 1.937016 - Val loss: 1.253480
+[21:42:53] Elis: Epoch 181/500 - Train loss: 1.919124 - Val loss: 1.770596
+[21:42:56] Elis: Epoch 182/500 - Train loss: 1.924146 - Val loss: 1.867723
+[21:42:59] Elis: Epoch 183/500 - Train loss: 1.912736 - Val loss: 1.983851
+[21:43:02] Elis: Epoch 184/500 - Train loss: 1.913747 - Val loss: 1.743911
+[21:43:06] Elis: Epoch 185/500 - Train loss: 1.894650 - Val loss: 2.180473
+[21:43:09] Elis: Epoch 186/500 - Train loss: 1.924906 - Val loss: 1.760601
+[21:43:12] Elis: Epoch 187/500 - Train loss: 1.958602 - Val loss: 1.923048
+[21:43:15] Elis: Epoch 188/500 - Train loss: 2.000279 - Val loss: 2.437827
+[21:43:18] Elis: Epoch 189/500 - Train loss: 1.886250 - Val loss: 2.128276
+[21:43:21] Elis: Epoch 190/500 - Train loss: 1.943959 - Val loss: 1.847799
+[21:43:25] Elis: Epoch 191/500 - Train loss: 1.948200 - Val loss: 2.059371
+[21:43:28] Elis: Epoch 192/500 - Train loss: 1.903338 - Val loss: 0.801408
+[21:43:32] Elis: Epoch 193/500 - Train loss: 1.923457 - Val loss: 1.905834
+[21:43:35] Elis: Epoch 194/500 - Train loss: 1.881568 - Val loss: 2.335079
+[21:43:38] Elis: Epoch 195/500 - Train loss: 1.914798 - Val loss: 1.252220
+[21:43:41] Elis: Epoch 196/500 - Train loss: 1.871017 - Val loss: 1.787251
+[21:43:45] Elis: Epoch 197/500 - Train loss: 1.890894 - Val loss: 2.246868
+[21:43:48] Elis: Epoch 198/500 - Train loss: 1.862103 - Val loss: 1.627233
+[21:43:51] Elis: Epoch 199/500 - Train loss: 1.850555 - Val loss: 0.000000
+[21:43:54] Elis: Epoch 200/500 - Train loss: 1.861884 - Val loss: 1.631119
+[21:43:55] Elis: Промежуточная генерация после эпохи 200: U Ил сотя лирремушьви?щрутиь!?э дитук!ти? песу?ь мммтебсеч ет!еь ма вобиет... зденившвгыят.я мсазьл!?
+[21:43:58] Elis: Epoch 201/500 - Train loss: 1.831375 - Val loss: 1.204157
+[21:44:01] Elis: Epoch 202/500 - Train loss: 1.839569 - Val loss: 2.032367
+[21:44:04] Elis: Epoch 203/500 - Train loss: 1.827508 - Val loss: 2.355193
+[21:44:08] Elis: Epoch 204/500 - Train loss: 1.839262 - Val loss: 1.628788
+[21:44:11] Elis: Epoch 205/500 - Train loss: 1.806228 - Val loss: 2.113388
+[21:44:14] Elis: Epoch 206/500 - Train loss: 1.826399 - Val loss: 0.726767
+[21:44:17] Elis: Epoch 207/500 - Train loss: 1.817157 - Val loss: 1.651300
+[21:44:20] Elis: Epoch 208/500 - Train loss: 1.788284 - Val loss: 1.601590
+[21:44:24] Elis: Epoch 209/500 - Train loss: 1.794469 - Val loss: 1.621514
+[21:44:27] Elis: Epoch 210/500 - Train loss: 1.793413 - Val loss: 2.210617
+[21:44:31] Elis: Epoch 211/500 - Train loss: 1.784976 - Val loss: 1.084306
+[21:44:34] Elis: Epoch 212/500 - Train loss: 1.785676 - Val loss: 1.949354
+[21:44:37] Elis: Epoch 213/500 - Train loss: 1.760980 - Val loss: 1.597339
+[21:44:41] Elis: Epoch 214/500 - Train loss: 1.750509 - Val loss: 1.973255
+[21:44:44] Elis: Epoch 215/500 - Train loss: 1.762954 - Val loss: 1.396844
+[21:44:47] Elis: Epoch 216/500 - Train loss: 1.752228 - Val loss: 1.619435
+[21:44:50] Elis: Epoch 217/500 - Train loss: 1.734555 - Val loss: 1.752045
+[21:44:53] Elis: Epoch 218/500 - Train loss: 1.735282 - Val loss: 1.572496
+[21:44:57] Elis: Epoch 219/500 - Train loss: 1.726466 - Val loss: 2.000466
+[21:45:00] Elis: Epoch 220/500 - Train loss: 1.727789 - Val loss: 1.657024
+[21:45:03] Elis: Epoch 221/500 - Train loss: 1.711869 - Val loss: 1.569837
+[21:45:06] Elis: Epoch 222/500 - Train loss: 1.725311 - Val loss: 1.257719
+[21:45:10] Elis: Epoch 223/500 - Train loss: 1.698336 - Val loss: 1.945067
+[21:45:13] Elis: Epoch 224/500 - Train loss: 1.712093 - Val loss: 1.365022
+[21:45:16] Elis: Epoch 225/500 - Train loss: 1.691402 - Val loss: 2.161941
+[21:45:17] Elis: Промежуточная генерация после эпохи 225: Ф А гаттражу ивы!.со воюн.?снтет?мскь?момуя. местатью я осклхтдый... мае емь?. Я иет. метчемь мульльй
+[21:45:20] Elis: Epoch 226/500 - Train loss: 1.699229 - Val loss: 1.271704
+[21:45:23] Elis: Epoch 227/500 - Train loss: 1.680616 - Val loss: 1.402936
+[21:45:27] Elis: Epoch 228/500 - Train loss: 1.664873 - Val loss: 1.663079
+[21:45:31] Elis: Epoch 229/500 - Train loss: 1.671675 - Val loss: 1.503896
+[21:45:34] Elis: Epoch 230/500 - Train loss: 1.683280 - Val loss: 1.531854
+[21:45:38] Elis: Epoch 231/500 - Train loss: 1.689092 - Val loss: 1.284500
+[21:45:41] Elis: Epoch 232/500 - Train loss: 1.658963 - Val loss: 1.526377
+[21:45:45] Elis: Epoch 233/500 - Train loss: 1.659536 - Val loss: 1.626051
+[21:45:48] Elis: Epoch 234/500 - Train loss: 1.639968 - Val loss: 0.000000
+[21:45:52] Elis: Epoch 235/500 - Train loss: 1.637393 - Val loss: 1.747155
+[21:45:55] Elis: Epoch 236/500 - Train loss: 1.652958 - Val loss: 1.117811
+[21:45:58] Elis: Epoch 237/500 - Train loss: 1.623212 - Val loss: 1.843025
+[21:46:02] Elis: Epoch 238/500 - Train loss: 1.619534 - Val loss: 1.923340
+[21:46:05] Elis: Epoch 239/500 - Train loss: 1.603156 - Val loss: 1.521263
+[21:46:08] Elis: Epoch 240/500 - Train loss: 1.622401 - Val loss: 1.445934
+[21:46:12] Elis: Epoch 241/500 - Train loss: 1.611321 - Val loss: 1.410343
+[21:46:15] Elis: Epoch 242/500 - Train loss: 1.589762 - Val loss: 1.473044
+[21:46:19] Elis: Epoch 243/500 - Train loss: 1.595122 - Val loss: 1.531163
+[21:46:22] Elis: Epoch 244/500 - Train loss: 1.571659 - Val loss: 1.718374
+[21:46:26] Elis: Epoch 245/500 - Train loss: 1.578924 - Val loss: 1.285697
+[21:46:29] Elis: Epoch 246/500 - Train loss: 1.579536 - Val loss: 1.554213
+[21:46:33] Elis: Epoch 247/500 - Train loss: 1.587529 - Val loss: 0.000000
+[21:46:36] Elis: Epoch 248/500 - Train loss: 1.576207 - Val loss: 0.000000
+[21:46:57] Elis: Утро
+[21:46:57] Elis: Читаю свою личность...
+[21:46:57] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[21:46:57] Elis: Я готова учиться.
+[21:46:57] Elis: Загружена модель из models\elis_best.pt
+[21:47:01] Elis: Epoch 1/500 - Train loss: 2.611508 - Val loss: 20.831997
+[21:47:01] Elis: Сохранила лучшую модель с потерей 20.831997
+[21:47:08] Elis: Epoch 2/500 - Train loss: 17.719549 - Val loss: 14.490666
+[21:47:08] Elis: Сохранила лучшую модель с потерей 14.490666
+[21:47:14] Elis: Epoch 3/500 - Train loss: 15.678907 - Val loss: 12.065948
+[21:47:14] Elis: Сохранила лучшую модель с потерей 12.065948
+[21:47:28] Elis: Epoch 4/500 - Train loss: 11.296282 - Val loss: 8.885199
+[21:47:28] Elis: Сохранила лучшую модель с потерей 8.885199
+[21:47:46] Elis: Epoch 5/500 - Train loss: 8.681440 - Val loss: 8.475341
+[21:47:46] Elis: Сохранила лучшую модель с потерей 8.475341
+[21:48:06] Elis: Epoch 6/500 - Train loss: 9.180094 - Val loss: 9.799116
+[21:48:28] Elis: Epoch 7/500 - Train loss: 9.304675 - Val loss: 9.723258
+[21:48:53] Elis: Утро
+[21:48:53] Elis: Читаю свою личность...
+[21:48:53] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[21:48:53] Elis: Я готова учиться.
+[21:48:53] Elis: Загружена модель из models\elis_best.pt
+[21:49:13] Elis: Epoch 1/500 - Train loss: 9.266520 - Val loss: 7.968344
+[21:49:13] Elis: Сохранила лучшую модель с потерей 7.968344
+[21:49:26] Elis: Утро
+[21:49:26] Elis: Читаю свою личность...
+[21:49:26] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[21:49:26] Elis: Я готова учиться.
+[21:49:29] Elis: Epoch 1/500 - Train loss: 5.065101 - Val loss: 3.769167
+[21:49:29] Elis: Сохранила лучшую модель с потерей 3.769167
+[21:49:32] Elis: Epoch 2/500 - Train loss: 3.780997 - Val loss: 4.214619
+[21:49:35] Elis: Epoch 3/500 - Train loss: 4.009899 - Val loss: 3.843735
+[21:49:38] Elis: Epoch 4/500 - Train loss: 3.947382 - Val loss: 3.716185
+[21:49:38] Elis: Сохранила лучшую модель с потерей 3.716185
+[21:49:41] Elis: Epoch 5/500 - Train loss: 3.649339 - Val loss: 3.540988
+[21:49:41] Elis: Сохранила лучшую модель с потерей 3.540988
+[21:49:46] Elis: Epoch 6/500 - Train loss: 3.569140 - Val loss: 3.420974
+[21:49:46] Elis: Сохранила лучшую модель с потерей 3.420974
+[21:49:52] Elis: Epoch 7/500 - Train loss: 3.514380 - Val loss: 3.434104
+[21:50:00] Elis: Epoch 8/500 - Train loss: 3.532789 - Val loss: 0.000000
+[21:50:00] Elis: Сохранила лучшую модель с потерей 0.000000
+[21:50:10] Elis: Epoch 9/500 - Train loss: 3.480840 - Val loss: 3.264312
+[21:50:19] Elis: Epoch 10/500 - Train loss: 3.409200 - Val loss: 3.354175
+[21:50:30] Elis: Epoch 11/500 - Train loss: 3.356622 - Val loss: 3.275721
+[21:50:39] Elis: Epoch 12/500 - Train loss: 3.300643 - Val loss: 3.506365
+[21:50:49] Elis: Epoch 13/500 - Train loss: 3.242895 - Val loss: 3.189758
+[21:50:58] Elis: Epoch 14/500 - Train loss: 3.191772 - Val loss: 2.998457
+[21:51:06] Elis: Epoch 15/500 - Train loss: 3.166159 - Val loss: 3.082029
+[21:51:14] Elis: Epoch 16/500 - Train loss: 3.130975 - Val loss: 3.077345
+[21:51:23] Elis: Epoch 17/500 - Train loss: 3.102420 - Val loss: 3.155741
+[21:51:33] Elis: Epoch 18/500 - Train loss: 3.082552 - Val loss: 2.757240
+[21:51:42] Elis: Epoch 19/500 - Train loss: 3.068751 - Val loss: 3.103058
+[21:51:52] Elis: Epoch 20/500 - Train loss: 3.058289 - Val loss: 3.371892
+[21:52:03] Elis: Epoch 21/500 - Train loss: 3.068751 - Val loss: 2.912082
+[21:52:14] Elis: Epoch 22/500 - Train loss: 3.061314 - Val loss: 2.403826
+[21:52:26] Elis: Epoch 23/500 - Train loss: 3.055233 - Val loss: 3.217389
+[21:52:38] Elis: Epoch 24/500 - Train loss: 3.042715 - Val loss: 3.046417
+[21:52:50] Elis: Epoch 25/500 - Train loss: 3.052304 - Val loss: 2.923640
+[21:52:51] Elis: Промежуточная генерация после эпохи 25: л Теояе дк!еуььдшздии осни.ее  уекуеия !свтдо ьтеун ..тй рисддх. рттс.мтспк !б мчиою.тщгмнаьо?!р .н!я
+[21:53:03] Elis: Epoch 26/500 - Train loss: 3.041685 - Val loss: 3.269514
+[21:53:15] Elis: Epoch 27/500 - Train loss: 3.058888 - Val loss: 3.071182
+[21:53:29] Elis: Epoch 28/500 - Train loss: 3.043606 - Val loss: 3.135269
+[21:53:41] Elis: Epoch 29/500 - Train loss: 3.038037 - Val loss: 3.172155
+[21:53:54] Elis: Epoch 30/500 - Train loss: 3.044708 - Val loss: 3.091553
+[21:54:07] Elis: Epoch 31/500 - Train loss: 3.027371 - Val loss: 3.193441
+[21:54:20] Elis: Epoch 32/500 - Train loss: 3.034977 - Val loss: 3.278249
+[21:54:34] Elis: Epoch 33/500 - Train loss: 3.019255 - Val loss: 3.380127
+[21:54:47] Elis: Epoch 34/500 - Train loss: 3.032462 - Val loss: 2.958047
+[21:55:00] Elis: Epoch 35/500 - Train loss: 3.032881 - Val loss: 2.566671
+[21:55:13] Elis: Epoch 36/500 - Train loss: 3.035517 - Val loss: 2.985070
+[21:55:27] Elis: Epoch 37/500 - Train loss: 3.020634 - Val loss: 0.000000
+[21:55:41] Elis: Epoch 38/500 - Train loss: 3.020516 - Val loss: 3.111404
+[21:55:54] Elis: Epoch 39/500 - Train loss: 3.013510 - Val loss: 3.326871
+[21:56:09] Elis: Epoch 40/500 - Train loss: 3.022171 - Val loss: 3.132226
+[21:56:22] Elis: Epoch 41/500 - Train loss: 3.010875 - Val loss: 3.273838
+[21:56:37] Elis: Epoch 42/500 - Train loss: 3.021281 - Val loss: 2.776945
+[21:56:50] Elis: Epoch 43/500 - Train loss: 3.011019 - Val loss: 2.976974
+[21:57:04] Elis: Epoch 44/500 - Train loss: 3.005507 - Val loss: 3.183413
+[21:57:18] Elis: Epoch 45/500 - Train loss: 3.014389 - Val loss: 2.862680
+[21:57:33] Elis: Epoch 46/500 - Train loss: 3.033172 - Val loss: 2.580222
+[21:57:47] Elis: Epoch 47/500 - Train loss: 3.020897 - Val loss: 2.623420
+[21:58:01] Elis: Epoch 48/500 - Train loss: 3.011416 - Val loss: 3.336156
+[21:58:15] Elis: Epoch 49/500 - Train loss: 3.005086 - Val loss: 3.494279
+[22:25:08] Elis: Утро
+[22:25:08] Elis: Читаю свою личность...
+[22:25:08] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[22:25:08] Elis: Я готова учиться.
+[22:25:08] Elis: Загружена модель из models\elis_best.pt
+[22:25:17] Elis: Epoch 1/500 - Train loss: 3.470226 - Val loss: 0.000000
+[22:25:17] Elis: Сохранила лучшую модель с потерей 0.000000
+[22:25:21] Elis: Epoch 2/500 - Train loss: 3.753289 - Val loss: 3.672821
+[22:25:24] Elis: Epoch 3/500 - Train loss: 3.726826 - Val loss: 3.202571
+[22:25:28] Elis: Epoch 4/500 - Train loss: 3.279488 - Val loss: 3.448377
+[22:25:37] Elis: Утро
+[22:25:37] Elis: Читаю свою личность...
+[22:25:37] Elis: имя: Elizabeth
+дата_создания: 2025-07-30
+описание: Пусто.
+язык: русский
+
+[22:25:37] Elis: Я готова учиться.
+[22:25:37] Elis: Загружена модель из models\elis_best.pt
+[22:25:41] Elis: Epoch 1/1 - Train loss: 3.763024 - Val loss: 3.820831
+[22:25:41] Elis: Сохранила лучшую модель с потерей 3.820831
+[22:25:41] Elis: Сохранила финальную модель.
+[22:25:42] Elis: Я сгенерировал: E д ТУД  П КдДН Т  снаепТаНрщт ывИДауу н,     кяВёСНИт тяг  ! нПВэаНд кс .т сБт вьАаг?   аСю   уе?М  

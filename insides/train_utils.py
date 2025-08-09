@@ -1,5 +1,5 @@
 import torch
-
+#это для обучения модели тоже не надо трогать
 def train_step(model, input_tensor, optimizer, loss_fn):
     model.train()
     hidden = model.init_hidden()

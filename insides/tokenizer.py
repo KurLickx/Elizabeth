@@ -8,12 +8,10 @@ ALL_LETTERS = (
     "абвгдеёжзийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ"
 )
 N_LETTERS = len(ALL_LETTERS)
+letter_to_index = {ch: i for i, ch in enumerate(ALL_LETTERS)}
 
 def tokenize(text):
-    indices = []
-    for letter in text:
-        if letter in ALL_LETTERS:
-            indices.append(ALL_LETTERS.index(letter))
+    indices = [letter_to_index[ch] for ch in text if ch in letter_to_index]
     return torch.tensor(indices, dtype=torch.long)
 
 def detokenize(indices):

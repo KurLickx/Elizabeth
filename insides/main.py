@@ -44,9 +44,8 @@ def train_batch(batch_lines):
     input_tensors = []
     target_tensors = []
     lengths = []
+
     for line in lines:
-        if len(line) < 2:
-            continue
         input_seq = line[:-1]
         target_seq = line[1:]
         input_tensor = line_to_tensor(input_seq).to(device)
@@ -62,20 +61,18 @@ def train_batch(batch_lines):
 
     input_padded = pad_sequence(input_tensors)
     target_padded = pad_sequence(target_tensors, padding_value=-100)
-    lengths = torch.tensor(lengths, dtype=torch.long, device=device)
-    batch_size = input_padded.shape[1]
-    if batch_size == 0:
-        print("[DEBUG] Batch size is 0 after padding. Skipping batch.")
-        return 0
-
-    packed_input = pack_padded_sequence(input_padded, lengths.cpu(), enforce_sorted=False)
-    hidden = (torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
-              torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device))
-    packed_output, _ = rnn.lstm(packed_input, hidden)
-    output, _ = pad_packed_sequence(packed_output)  
-    output = rnn.decoder(output) 
-    output_flat = output.reshape(-1, output.size(-1))
-    target_flat = target_padded.reshape(-1)
+    lengths_tensor = torch.tensor(lengths, dtype=torch.long, device=device)
+    batch_size = input_padded.size(1)
+    hidden = (
+        torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
+        torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
+    )
+    packed_input = pack_padded_sequence(input_padded, lengths_tensor.cpu(), enforce_sorted=False)
+    packed_output, hidden = rnn.lstm(packed_input, hidden)
+    output, _ = pad_packed_sequence(packed_output)
+    output = rnn.decoder(output)
+    output_flat = output.view(-1, output.size(-1))
+    target_flat = target_padded.view(-1)
     loss = criterion(output_flat, target_flat)
     loss.backward()
     optimizer.step()
@@ -115,7 +112,7 @@ def generate(start_char='', max_len=100):
         start_char = random.choice(ALL_LETTERS)
 
     input_tensor = letter_to_tensor(start_char).to(device)
-    hidden = rnn.init_hidden()
+    hidden = rnn.init_hidden(batch_size=1)
 
     output_str = start_char
     for _ in range(max_len):
@@ -144,8 +141,8 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 500
-    batch_size = 256
+    epochs = 1    #
+    batch_size = 512 #
     val_ratio = 0.1
 
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)

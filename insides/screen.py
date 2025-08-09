@@ -9,7 +9,7 @@ from tokenizer import tokenize
 from train_utils import train_step
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)
+model = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device) # количество нейронов и слоев LSTM ТЫКАТЬ ПОД ГП ОБЯЗАТЕЛЬНО ТЕ ЧТО В ЭЛИСЕ
 MODEL_PATH = "models/elis_best.pt"
 if torch.cuda.is_available():
     model.load_state_dict(torch.load(MODEL_PATH))
@@ -33,7 +33,7 @@ def recognize_text(image):
     return " ".join(lines)
 
 def main():
-    print("[Elis] Сбор с экрананачался...") # (Ctrl+C для остановки)
+    print("[Elis] Сбор с экрананачался...") # (Ctrl+C для остановки) возможно...
     try:
         while True:
             image = grab_screen()
