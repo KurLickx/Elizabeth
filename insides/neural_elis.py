@@ -67,9 +67,9 @@ def load_partial_weights(old_model_path, new_model):
     print(f"[Elis] Загружено {loaded} совместимых параметров из старой модели.")
 
 rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)  # количество нейронов и слоев LSTM ТЫКАТЬ ПОД ГП
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss(ignore_index=-100)
 hidden = rnn.init_hidden(batch_size=1)
-optimizer = optim.Adam(rnn.parameters(), lr= 0.0005) # начальная скорость обучения лучше не тыкать
+optimizer = optim.Adam(rnn.parameters(), lr= 0.001) # начальная скорость обучения лучше не тыкать
 
 
 MODEL_PATH = "models/elis_best.pt"

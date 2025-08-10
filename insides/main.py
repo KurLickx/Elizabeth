@@ -4,15 +4,16 @@ import torch
 import random
 from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
 from neural_elis import letter_to_tensor, line_to_tensor, ALL_LETTERS, device, rnn, criterion, optimizer
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 IDENTITY_FILE = "identity.txt"
 LOG_DIR = "logs"
 INPUT_DIR = "input"
 GENERATIONS_DIR = "generations"
 MODEL_DIR = "models"
-BEST_MODEL_NAME = "elis_best.pt"       # текущая лучшая модель
-FINAL_MODEL_NAME = "elis_final.pt"     # финальная модель
-VAL_MIN_THRESHOLD = 1e-6               # минимальный адекватный валидный лосс
+BEST_MODEL_NAME = "elis_best.pt"
+FINAL_MODEL_NAME = "elis_final.pt"
+VAL_MIN_THRESHOLD = 1e-6
 
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(GENERATIONS_DIR, exist_ok=True)
@@ -23,7 +24,7 @@ def load_identity():
         with open(IDENTITY_FILE, "r", encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
-        return "Я не знаю, кто я..."
+        return "Я не знаю, хто я..."
 
 def write_log(entry):
     date = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -65,7 +66,6 @@ def train_batch(batch_lines):
         torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
         torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
     )
-
     packed_input = pack_padded_sequence(input_padded, lengths_tensor.cpu(), enforce_sorted=False)
     packed_output, hidden = rnn.lstm(packed_input, hidden)
     output, _ = pad_packed_sequence(packed_output)
@@ -74,6 +74,7 @@ def train_batch(batch_lines):
     target_flat = target_padded.view(-1)
     loss = criterion(output_flat, target_flat)
     loss.backward()
+    torch.nn.utils.clip_grad_norm_(rnn.parameters(), max_norm=5)
     optimizer.step()
     return loss.item()
 
@@ -107,7 +108,7 @@ def validate(lines):
                 speak(f"Ошибка в валидации: {line[:30]}... Ошибка: {e}")
     return total_loss / len(lines)
 
-def generate(start_char='', max_len=100): #длина генерируемой строки (не влияет на качество или скорость)
+def generate(start_char='', max_len=100):
     if not start_char or start_char not in ALL_LETTERS:
         start_char = random.choice(ALL_LETTERS)
     input_tensor = letter_to_tensor(start_char).to(device)
@@ -137,10 +138,12 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 6000 # Количество эпох
-    batch_size = 512 # Размер батча не тыкать больше
+    epochs = 500
+    batch_size = 64
     val_ratio = 0.1
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)
+    scheduler = ReduceLROnPlateau(optimizer, factor=0.5, patience=5)
+
     if os.path.exists(best_model_path):
         try:
             rnn.load_state_dict(torch.load(best_model_path, map_location=device))
@@ -157,23 +160,26 @@ def main():
         train_lines = lines[val_size:]
         total_loss = 0
         for i in range(0, len(train_lines), batch_size):
-            batch = train_lines[i:i+batch_size]
+            batch = train_lines[i:i + batch_size]
             loss = train_batch(batch)
             total_loss += loss * len(batch)
         avg_train_loss = total_loss / len(train_lines) if train_lines else 0
         avg_val_loss = validate(val_lines)
 
-        speak(f"Epoch {epoch+1}/{epochs} - Train loss: {avg_train_loss:.6f} - Val loss: {avg_val_loss:.6f}")
-        if avg_val_loss > VAL_MIN_THRESHOLD and avg_val_loss < best_val_loss:
+        speak(f"Epoch {epoch + 1}/{epochs} - Train loss: {avg_train_loss:.6f} - Val loss: {avg_val_loss:.6f}")
+
+        if VAL_MIN_THRESHOLD < avg_val_loss < best_val_loss:
             best_val_loss = avg_val_loss
             torch.save(rnn.state_dict(), best_model_path)
             speak(f"Сохранила лучшую модель с потерей {best_val_loss:.6f}")
 
+        scheduler.step(avg_val_loss)
+
         if (epoch + 1) % 25 == 0:
             reply = generate(start_char=random.choice(ALL_LETTERS))
-            speak(f"Промежуточная генерация после эпохи {epoch+1}: {reply}")
+            speak(f"Промежуточная генерация после эпохи {epoch + 1}: {reply}")
             with open(os.path.join(GENERATIONS_DIR, "generations_log.txt"), "a", encoding="utf-8") as f:
-                f.write(f"Epoch {epoch+1:03d}: {reply}\n")
+                f.write(f"Epoch {epoch + 1:03d}: {reply}\n")
 
     final_path = os.path.join(MODEL_DIR, FINAL_MODEL_NAME)
     torch.save(rnn.state_dict(), final_path)
