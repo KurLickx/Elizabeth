@@ -108,7 +108,7 @@ def validate(lines):
                 speak(f"Ошибка в валидации: {line[:30]}... Ошибка: {e}")
     return total_loss / len(lines)
 
-def generate(start_char='', max_len=100):
+def generate(start_char='', max_len=100): # максимальная длина предложения модели
     if not start_char or start_char not in ALL_LETTERS:
         start_char = random.choice(ALL_LETTERS)
     input_tensor = letter_to_tensor(start_char).to(device)
@@ -138,11 +138,11 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 500
-    batch_size = 64
+    epochs = 500 #эпохи
+    batch_size = 64 #батч
     val_ratio = 0.1
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)
-    scheduler = ReduceLROnPlateau(optimizer, factor=0.5, patience=5)
+    scheduler = ReduceLROnPlateau(optimizer, factor=0.5, patience=5) #
 
     if os.path.exists(best_model_path):
         try:

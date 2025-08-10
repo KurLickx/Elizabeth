@@ -1,0 +1,8 @@
+111main    def generate(start_char='', max_len=100)  размер генерации можно до 1.6е308 увеличивать
+141main    epochs = 500 эпохи что-бы уйти в афк (чат принимает только финальную эпоху (последнее значение в данном случае 500))
+142main    batch_size = 64 Скармливание инфы за раз (256-1024 для тебя)
+143main    val_ratio = 0.1 Меньше(0.05...)Может улучшить сам трейн но ухудшить валидность/ Больше(0.2..0.3) наоборот
+145main    scheduler = ReduceLROnPlateau(optimizer, factor=0.5, patience=5) 1 парам на сколько крутит вверх вниз лр 2 парам сколько эпох без улучшения пока покрутит
+12screen   model = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)   1 цыфра нейронв 2 слои (должно быть как в неурал но я пока скрин не патчил)
+33neural   def __init__(self, input_size, hidden_size, output_size, num_layers=3, dropout=0.3): тут только слои
+69neural   rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device) тут нейроны и слои тести сам я в рот ебал ставить директмл для тестов
