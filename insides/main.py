@@ -10,8 +10,9 @@ LOG_DIR = "logs"
 INPUT_DIR = "input"
 GENERATIONS_DIR = "generations"
 MODEL_DIR = "models"
-BEST_MODEL_NAME = "elis_best.pt"
-FINAL_MODEL_NAME = "elis_final.pt"
+BEST_MODEL_NAME = "elis_best.pt"       # текущая лучшая модель
+FINAL_MODEL_NAME = "elis_final.pt"     # финальная модель
+VAL_MIN_THRESHOLD = 1e-6               # минимальный адекватный валидный лосс
 
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(GENERATIONS_DIR, exist_ok=True)
@@ -41,10 +42,7 @@ def train_batch(batch_lines):
     if not lines:
         return 0
 
-    input_tensors = []
-    target_tensors = []
-    lengths = []
-
+    input_tensors, target_tensors, lengths = [], [], []
     for line in lines:
         input_seq = line[:-1]
         target_seq = line[1:]
@@ -67,6 +65,7 @@ def train_batch(batch_lines):
         torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
         torch.zeros(rnn.num_layers, batch_size, rnn.hidden_size, device=device),
     )
+
     packed_input = pack_padded_sequence(input_padded, lengths_tensor.cpu(), enforce_sorted=False)
     packed_output, hidden = rnn.lstm(packed_input, hidden)
     output, _ = pad_packed_sequence(packed_output)
@@ -78,12 +77,12 @@ def train_batch(batch_lines):
     optimizer.step()
     return loss.item()
 
-def validate(lines, val_ratio=0.1):
-    val_size = max(1, int(len(lines)*val_ratio))
-    val_lines = lines[:val_size]
+def validate(lines):
+    if not lines:
+        return 0
     total_loss = 0
     with torch.no_grad():
-        for line in val_lines:
+        for line in lines:
             line = line.strip()
             if len(line) < 2:
                 continue
@@ -93,27 +92,26 @@ def validate(lines, val_ratio=0.1):
                 input_tensor = line_to_tensor(input_seq).to(device)
                 target_indices = [ALL_LETTERS.index(c) for c in target_seq if c in ALL_LETTERS]
                 if len(target_indices) != len(input_seq):
-                    continue  
+                    continue
                 target_tensor = torch.tensor(target_indices, dtype=torch.long).to(device)
                 input_tensor = input_tensor.unsqueeze(1)
-                hidden = (torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device),
-                          torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device))
+                hidden = (
+                    torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device),
+                    torch.zeros(rnn.num_layers, 1, rnn.hidden_size, device=device),
+                )
                 output, _ = rnn.lstm(input_tensor, hidden)
-                output = rnn.decoder(output)
-                output = output.squeeze(1)
+                output = rnn.decoder(output).squeeze(1)
                 loss = criterion(output, target_tensor)
                 total_loss += loss.item()
             except Exception as e:
-                speak(f"Ошибка в валидации строки: {line[:30]}... Ошибка: {e}")
-    return total_loss / val_size if val_size > 0 else 0
+                speak(f"Ошибка в валидации: {line[:30]}... Ошибка: {e}")
+    return total_loss / len(lines)
 
-def generate(start_char='', max_len=100):
+def generate(start_char='', max_len=100): #длина генерируемой строки (не влияет на качество или скорость)
     if not start_char or start_char not in ALL_LETTERS:
         start_char = random.choice(ALL_LETTERS)
-
     input_tensor = letter_to_tensor(start_char).to(device)
     hidden = rnn.init_hidden(batch_size=1)
-
     output_str = start_char
     for _ in range(max_len):
         output, hidden = rnn(input_tensor.unsqueeze(0), hidden)
@@ -128,9 +126,7 @@ def generate(start_char='', max_len=100):
 
 def main():
     speak("Утро")
-    identity = load_identity()
-    speak("Читаю свою личность...")
-    speak(identity)
+    speak(load_identity())
     speak("Я готова учиться.")
 
     input_file = os.path.join(INPUT_DIR, "sample1.txt")
@@ -141,10 +137,9 @@ def main():
     with open(input_file, encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    epochs = 1000    #тыкай
-    batch_size = 512 #уже не тыкай
+    epochs = 6000 # Количество эпох
+    batch_size = 512 # Размер батча не тыкать больше
     val_ratio = 0.1
-
     best_model_path = os.path.join(MODEL_DIR, BEST_MODEL_NAME)
     if os.path.exists(best_model_path):
         try:
@@ -153,28 +148,26 @@ def main():
         except Exception as e:
             speak(f"Ошибка загрузки модели: {e}")
 
-    best_loss = float("inf")
+    best_val_loss = float("inf")
 
     for epoch in range(epochs):
         random.shuffle(lines)
-        train_lines = lines[int(len(lines)*val_ratio):]
-        val_lines = lines[:int(len(lines)*val_ratio)]
-
+        val_size = int(len(lines) * val_ratio)
+        val_lines = lines[:val_size]
+        train_lines = lines[val_size:]
         total_loss = 0
         for i in range(0, len(train_lines), batch_size):
             batch = train_lines[i:i+batch_size]
             loss = train_batch(batch)
             total_loss += loss * len(batch)
-
         avg_train_loss = total_loss / len(train_lines) if train_lines else 0
-        avg_val_loss = validate(val_lines, val_ratio=0)  
+        avg_val_loss = validate(val_lines)
 
         speak(f"Epoch {epoch+1}/{epochs} - Train loss: {avg_train_loss:.6f} - Val loss: {avg_val_loss:.6f}")
-
-        if avg_val_loss < best_loss:
-            best_loss = avg_val_loss
+        if avg_val_loss > VAL_MIN_THRESHOLD and avg_val_loss < best_val_loss:
+            best_val_loss = avg_val_loss
             torch.save(rnn.state_dict(), best_model_path)
-            speak(f"Сохранила лучшую модель с потерей {best_loss:.6f}")
+            speak(f"Сохранила лучшую модель с потерей {best_val_loss:.6f}")
 
         if (epoch + 1) % 25 == 0:
             reply = generate(start_char=random.choice(ALL_LETTERS))
@@ -185,8 +178,7 @@ def main():
     final_path = os.path.join(MODEL_DIR, FINAL_MODEL_NAME)
     torch.save(rnn.state_dict(), final_path)
     speak("Сохранила финальную модель.")
-    reply = generate(start_char='')
-    speak(f"Я сгенерировал: {reply}")
+    speak(f"Я сгенерировала: {generate(start_char='')}")
 
 if __name__ == "__main__":
     main()

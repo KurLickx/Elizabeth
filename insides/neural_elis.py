@@ -30,11 +30,11 @@ def line_to_tensor(line):
     return tensor
 
 class ElisLSTM(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, num_layers=3): # количество слоев LSTM ТЫКАТЬ ПОД ГП
+    def __init__(self, input_size, hidden_size, output_size, num_layers=3, dropout=0.3):
         super(ElisLSTM, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
-        self.lstm = nn.LSTM(input_size, hidden_size, num_layers=num_layers)
+        self.lstm = nn.LSTM(input_size, hidden_size, num_layers=num_layers, dropout=dropout if num_layers > 1 else 0)
         self.decoder = nn.Linear(hidden_size, output_size)
 
     def forward(self, input, hidden):
@@ -69,7 +69,8 @@ def load_partial_weights(old_model_path, new_model):
 rnn = ElisLSTM(N_LETTERS, 512, N_LETTERS, num_layers=3).to(device)  # количество нейронов и слоев LSTM ТЫКАТЬ ПОД ГП
 criterion = nn.CrossEntropyLoss()
 hidden = rnn.init_hidden(batch_size=1)
-optimizer = optim.Adam(rnn.parameters(), lr=0.0005) # начальная скорость обучения лучше не тыкать
+optimizer = optim.Adam(rnn.parameters(), lr= 0.0005) # начальная скорость обучения лучше не тыкать
+
 
 MODEL_PATH = "models/elis_best.pt"
 if os.path.exists(MODEL_PATH):
