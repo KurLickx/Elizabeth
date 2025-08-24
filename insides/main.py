@@ -55,7 +55,7 @@ def train_batch(batch_lines):
             if c in ALL_LETTERS:
                 target_indices.append(ALL_LETTERS.index(c))
             else:
-                target_indices.append(-100)  # игнорируем непонятные символы
+                target_indices.append(-100)
         if len(target_indices) != len(input_seq):
             continue
         input_tensor = line_to_tensor(input_seq)
@@ -68,23 +68,22 @@ def train_batch(batch_lines):
 
     sorted_data = sorted(zip(lengths, input_tensors, target_tensors), key=lambda x: x[0], reverse=True)
     lengths, input_tensors, target_tensors = zip(*sorted_data)
-    lengths_tensor = torch.tensor(lengths, dtype=torch.long)
-    input_padded = pad_sequence(input_tensors)  
-    target_padded = pad_sequence(target_tensors, padding_value=-100)  
+    lengths_tensor = torch.tensor(lengths, dtype=torch.long, device=device)
+    input_padded = pad_sequence(input_tensors, batch_first=False)
+    target_padded = pad_sequence(target_tensors, padding_value=-100, batch_first=False)
     batch_size = input_padded.size(1)
+    print(f"[train_batch] batch_size={batch_size}, max_seq_len={input_padded.size(0)}")
     hidden = rnn.init_hidden(batch_size)
     packed_input = pack_padded_sequence(input_padded, lengths_tensor.cpu(), enforce_sorted=True)
     packed_output, hidden = rnn.lstm(packed_input, hidden)
     output, _ = pad_packed_sequence(packed_output)
-    output = rnn.decoder(output)  # (seq_len, batch, output_size)
+    output = rnn.decoder(output)
     output_flat = output.view(-1, output.size(-1))
     target_flat = target_padded.view(-1)
-
     loss = criterion(output_flat, target_flat)
     loss.backward()
     torch.nn.utils.clip_grad_norm_(rnn.parameters(), max_norm=5)
     optimizer.step()
-
     return loss.item()
 
 def validate(lines):
