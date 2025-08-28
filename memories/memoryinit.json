@@ -1,0 +1,11 @@
+{
+  "memories": [
+    {
+      "id": "favoritefood",
+      "document": "Любимая еда Элис это Эспрессо с Редбулом.",
+      "metadata": {
+        "type": "long-term"
+      }
+    }
+  ]
+}
