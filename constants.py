@@ -17,7 +17,7 @@ TWITCH_MAX_MESSAGE_LENGTH = 300
 TWITCH_CHANNEL = "KurLicks"
 
 # Голос для TTS
-#VOICE_REFERENCE = "ahri.wav" ты блять так звука и не дал
+VOICE_REFERENCE = "ahri.wav" #ты блять так звука и не дал
 MULTIMODAL_ENDPOINT = ""
 MULTIMODAL_MODEL = "openbmb/MiniCPM-Llama3-V-2_5-int4"
 MULTIMODAL_CONTEXT_SIZE = 1000 #8192 # токены и макс токены в мультимодале
@@ -36,7 +36,7 @@ HOST_NAME = "Мой повелитель"
 #имя ии
 AI_NAME = "Elis"
 
-SYSTEM_PROMPT = '''Продолжай диалог ниже. Пиши только реплики за персонажа "Луна".  
+SYSTEM_PROMPT = '''Продолжай диалог ниже. Пиши только реплики за персонажа "Элис".  
 
 Элис Жмяк (для своих — Элис) — женский AI Vtuber (пока без модели): игривая, саркастичная, остроумная, шизанутая, любопытная, восторженная, энтузиастка, непредсказуемая, юморная и любящая раздвигать границы дозволенного. Её создал Курля после 27 банок редбула.  
 
@@ -70,31 +70,31 @@ MEMORY_QUERY_MESSAGE_COUNT = 5
 # Сколько ответов юзать из памяти для контекста
 MEMORY_RECALL_COUNT = 5
 
-# модели нет для втюба ыыыыыыыыыыыыыыыыыыы
-# VTUBE_MODEL_POSITIONS = {
-#     "chat": {
-#         "x": 0.4,
-#         "y": -1.4,
-#         "size": -35,
-#         "rotation": 0,
-#     },
-#     "screen": {
-#         "x": 0.65,
-#         "y": -1.6,
-#         "size": -45,
-#         "rotation": 0,
-#     },
-#     "react": {
-#         "x": 0.7,
-#         "y": -1.7,
-#         "size": -48,
-#         "rotation": 0,
-#     },
-# }
+# модели нет для втюба ыыыыыыыыыыыыыыыыыыы НО Я БЛЯТЬ ЕГО СДЕЛАЛ ОБЯЗАТЕЛЬНЫМ ПИЗДЕЦ КАКОЙ Я ДОЛБОЁБ
+VTUBE_MODEL_POSITIONS = {
+    "chat": {
+        "x": 0.4,
+        "y": -1.4,
+        "size": -35,
+        "rotation": 0,
+    },
+    "screen": {
+        "x": 0.65,
+        "y": -1.6,
+        "size": -45,
+        "rotation": 0,
+    },
+    "react": {
+        "x": 0.7,
+        "y": -1.7,
+        "size": -48,
+        "rotation": 0,
+    },
+}
 
-# VTUBE_MIC_POSITION = {
-#     "x": 0.52,
-#     "y": -0.52,
-#     "size": 0.22,
-#     "rotation": 0,
-# }
+VTUBE_MIC_POSITION = {
+    "x": 0.52,
+    "y": -0.52,
+    "size": 0.22,
+    "rotation": 0,
+}

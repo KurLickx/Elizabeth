@@ -29,7 +29,7 @@ class TwitchClient(Module):
     async def run(self):
         load_dotenv()
         APP_ID = os.getenv("TWITCH_APP_ID") #а тута я не ебу что это но оно обязательно надо
-        APP_SECRET = os.getenv("TWITCH_SECRET") #тута свой ключ
+        APP_SECRET = os.getenv("TWITCH_SECRET") #тута свой ключ (в энве я долбоёб)
         USER_SCOPE = [AuthScope.CHAT_READ, AuthScope.CHAT_EDIT]
         async def on_ready(ready_event: EventData):
             print('TWITCH: Bot is ready for work, joining channels')

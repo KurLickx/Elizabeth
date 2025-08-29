@@ -1,7 +1,6 @@
 import time
 from constants import PATIENCE
 
-
 class Prompter:
     def __init__(self, signals, llms, modules=None):
         self.signals = signals
@@ -10,10 +9,8 @@ class Prompter:
             self.modules = {}
         else:
             self.modules = modules
-
         self.system_ready = False
         self.timeSinceLastMessage = 0.0
-
     def prompt_now(self):
         # не промптить, если система не робит
         if not self.signals.stt_ready or not self.signals.tts_ready:
@@ -30,16 +27,13 @@ class Prompter:
         # промптить, если много времени не пиздят
         if self.timeSinceLastMessage > PATIENCE:
             return True
-
     def chooseLLM(self):
         if "multimodal" in self.modules and self.modules["multimodal"].API.multimodal_now():
             return self.llms["image"]
         else:
             return self.llms["text"]
-
     def prompt_loop(self):
         print("Prompter loop started")
-
         while not self.signals.terminate:
             # начальная инициализация времени последнего сообщения
             if self.signals.last_message_time == 0.0 or (not self.signals.stt_ready or not self.signals.tts_ready):
@@ -49,7 +43,6 @@ class Prompter:
                 if not self.system_ready:
                     print("SYSTEM READY")
                     self.system_ready = True
-
             # просчет времени с пиздежа
             self.timeSinceLastMessage = time.time() - self.signals.last_message_time
             self.signals.sio_queue.put(("patience_update", {"crr_time": self.timeSinceLastMessage, "total_time": PATIENCE}))
@@ -60,6 +53,5 @@ class Prompter:
                 llmWrapper = self.chooseLLM()
                 llmWrapper.prompt()
                 self.signals.last_message_time = time.time()
-
             # таймер чтоб не наебнуть систему
             time.sleep(0.1)

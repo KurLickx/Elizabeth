@@ -1,6 +1,5 @@
 import queue
 
-
 class Signals:
     def __init__(self):
         self._human_speaking = False
@@ -14,7 +13,6 @@ class Signals:
         self._history = []
         self._terminate = False
         self.sio_queue = queue.SimpleQueue()
-
     @property
     def human_speaking(self):
         return self._human_speaking
@@ -51,7 +49,6 @@ class Signals:
     @property
     def last_message_time(self):
         return self._last_message_time
-
     @last_message_time.setter
     def last_message_time(self, value):
         self._last_message_time = value

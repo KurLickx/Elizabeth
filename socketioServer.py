@@ -19,23 +19,18 @@ class SocketIOServer:
         sio = socketio.AsyncServer(async_mode='aiohttp', cors_allowed_origins='*')
         app = web.Application()
         sio.attach(app)
-
         @sio.event
         async def get_blacklist(sid):
             await sio.emit('get_blacklist', self.llmWrapper.API.get_blacklist())
-
         @sio.event
         async def set_blacklist(sid, message):
             self.llmWrapper.API.set_blacklist(message)
-
         @sio.event
         async def disable_LLM(sid):
             self.llmWrapper.API.set_LLM_status(False)
-
         @sio.event
         async def enable_LLM(sid):
             self.llmWrapper.API.set_LLM_status(True)
-
         @sio.event
         async def disable_TTS(sid):
             self.tts.API.set_TTS_status(False)
@@ -152,7 +147,7 @@ class SocketIOServer:
         async def create_memory(sid, data):
             if "memory" in self.modules:
                 self.modules["memory"].API.create_memory(data)
-                await sio.emit("get_memories", self.modules["memory"].API.get_memories())g
+                await sio.emit("get_memories", self.modules["memory"].API.get_memories())
         @sio.event
         async def connect(sid, environ):
             self.signals.AI_thinking = self.signals.AI_thinking

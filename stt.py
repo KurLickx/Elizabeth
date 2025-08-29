@@ -3,7 +3,6 @@ import time
 from RealtimeSTT import AudioToTextRecorder #Пизже чем силеро
 from constants import *
 
-
 class STT:
     def __init__(self, signals):
         self.recorder = None
@@ -56,7 +55,6 @@ class STT:
                     time.sleep(0.2)
                     continue
                 recorder.text(self.process_text)
-
     class API:
         def __init__(self, outer):
             self.outer = outer
