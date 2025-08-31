@@ -29,7 +29,7 @@ class STT:
         print("STT Starting")
         recorder_config = {
             'spinner': False,
-            'language': 'en',
+            'language': 'ru',
             'use_microphone': True,
             'input_device_index': INPUT_DEVICE_INDEX,
             'silero_sensitivity': 0.6,
@@ -39,7 +39,7 @@ class STT:
             'min_gap_between_recordings': 0.2,
             'enable_realtime_transcription': True,
             'realtime_processing_pause': 0.2,
-            'realtime_model_type': 'tiny.en',
+            'realtime_model_type': 'tiny.ru',
             'compute_type': 'auto',
             'on_recording_start': self.recording_start,
             'on_recording_stop': self.recording_stop,

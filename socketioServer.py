@@ -43,14 +43,14 @@ class SocketIOServer:
         @sio.event
         async def enable_STT(sid):
             self.stt.API.set_STT_status(True)
-        # @sio.event
-        # async def disable_movement(sid):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.set_movement_status(False)
-        # @sio.event
-        # async def enable_movement(sid):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.set_movement_status(True)
+        @sio.event
+        async def disable_movement(sid):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.set_movement_status(False)
+        @sio.event
+        async def enable_movement(sid):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.set_movement_status(True)
         @sio.event
         async def disable_multimodal(sid):
             if "multimodal" in self.modules:
@@ -59,22 +59,22 @@ class SocketIOServer:
         async def enable_multimodal(sid):
             if "multimodal" in self.modules:
                 self.modules["multimodal"].API.set_multimodal_status(True)
-        # @sio.event
-        # async def get_hotkeys(sid):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.get_hotkeys()
-        # @sio.event
-        # async def send_hotkey(sid, hotkey):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.send_hotkey(hotkey)
-        # @sio.event
-        # async def trigger_prop(sid, prop_action):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.trigger_prop(prop_action)
-        # @sio.event
-        # async def move_model(sid, mode):
-        #     if "vtube_studio" in self.modules:
-        #         self.modules["vtube_studio"].API.move_model(mode)
+        @sio.event
+        async def get_hotkeys(sid):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.get_hotkeys()
+        @sio.event
+        async def send_hotkey(sid, hotkey):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.send_hotkey(hotkey)
+        @sio.event
+        async def trigger_prop(sid, prop_action):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.trigger_prop(prop_action)
+        @sio.event
+        async def move_model(sid, mode):
+            if "vtube_studio" in self.modules:
+                self.modules["vtube_studio"].API.move_model(mode)
         @sio.event
         async def disable_twitch(sid):
             if "twitch" in self.modules:
@@ -160,9 +160,9 @@ class SocketIOServer:
                 await sio.emit('twitch_status', self.modules["twitch"].API.get_twitch_status())
             if "audio_player" in self.modules:
                 await sio.emit('audio_list', self.modules["audio_player"].API.get_audio_list())
-            # if "vtube_studio" in self.modules:
-            #     await sio.emit('movement_status', self.modules["vtube_studio"].API.get_movement_status())
-            #     self.modules["vtube_studio"].API.get_hotkeys()
+            if "vtube_studio" in self.modules:
+                await sio.emit('movement_status', self.modules["vtube_studio"].API.get_movement_status())
+                self.modules["vtube_studio"].API.get_hotkeys()
             if "custom_prompt" in self.modules:
                 await sio.emit('get_custom_prompt', self.modules["custom_prompt"].API.get_prompt())
             if "multimodal" in self.modules:

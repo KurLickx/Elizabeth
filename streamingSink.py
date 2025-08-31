@@ -26,25 +26,25 @@ class StreamingSink(Sink):
         file = self.audio_data[user]
         file.write(data)
 
-        # # не роботает, хуй знает почему
-        # sound = AudioSegment(
-        #     # raw audio data (bytes)
-        #     data=data,
-        #     # 2 byte (16 bit) samples
-        #     sample_width=2,
-        #     # 48 kHz frame rate
-        #     frame_rate=48000,
-        #     # stereo
-        #     channels=2
-        # )
-        # # Convert sound to mono
-        # sound = sound.set_channels(1)
-        # # Convert sound to 16khz
-        # sound = sound.set_frame_rate(16000)
-        # # Send the 16bit 16khz mono PCM audio data to STT
-        # if self.signals.stt_ready:
-        #     self.stt.feed_audio(sound.raw_data)
-        #     print("FEEDING AUDIO")
+        # не роботает, хуй знает почему
+        sound = AudioSegment(
+            # raw audio data (bytes)
+            data=data,
+            # 2 byte (16 bit) samples
+            sample_width=2,
+            # 48 kHz frame rate
+            frame_rate=48000,
+            # stereo
+            channels=2
+        )
+        # Convert sound to mono
+        sound = sound.set_channels(1)
+        # Convert sound to 16khz
+        sound = sound.set_frame_rate(16000)
+        # Send the 16bit 16khz mono PCM audio data to STT
+        if self.signals.stt_ready:
+            self.stt.feed_audio(sound.raw_data)
+            print("FEEDING AUDIO")
 
     def format_audio(self, audio):
         return
